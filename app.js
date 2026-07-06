@@ -10,6 +10,11 @@ const SESSION_CLASSES = {
   "Family Skating": "family",
   "Adult Skating (18+)": "adult",
 };
+const LEGEND_LABELS = {
+  "Public Skating": "Public",
+  "Family Skating": "Family",
+  "Adult Skating (18+)": "Adult (18+)",
+};
 
 const state = {
   data: null,
@@ -88,7 +93,7 @@ function groupSessionsByDate(sessions, activeRinks) {
 function renderLegend() {
   const el = document.getElementById("legend");
   el.innerHTML = Object.entries(SESSION_CLASSES)
-    .map(([name, cls]) => `<span class="legend-item"><span class="dot ${cls}"></span>${escapeHtml(name)}</span>`)
+    .map(([name, cls]) => `<span class="legend-item"><span class="dot ${cls}"></span>${escapeHtml(LEGEND_LABELS[name] || name)}</span>`)
     .join("");
 }
 
