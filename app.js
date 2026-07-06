@@ -185,10 +185,11 @@ function renderTodayView(sessionsByDate) {
   const rows = events
     .map((session) => `
       <div class="today-row">
-        <span class="dot ${SESSION_CLASSES[session.type] || "public"}"></span>
-        <span class="today-time">${formatClock(session.startTime)}&ndash;${formatClock(session.endTime)}</span>
-        <span class="today-rink">${escapeHtml(session.rink)}</span>
-        <span class="today-type">${escapeHtml(session.type)}</span>
+        <span class="today-time">
+          <span class="dot ${SESSION_CLASSES[session.type] || "public"}"></span>
+          ${formatClock(session.startTime)}&ndash;${formatClock(session.endTime)}
+        </span>
+        <span class="today-meta"><strong>${escapeHtml(session.rink)}</strong> &middot; ${escapeHtml(session.type)}</span>
       </div>
     `)
     .join("");
