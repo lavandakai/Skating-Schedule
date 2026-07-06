@@ -110,6 +110,11 @@ async function main() {
   generatedAtEl.textContent = when ? `Last updated ${when}` : "";
 
   container.innerHTML = data.rinks.map(renderRink).join("");
+
+  const attributionEl = document.getElementById("attribution");
+  if (data.attribution && data.attribution.length) {
+    attributionEl.textContent = data.attribution.join(" ");
+  }
 }
 
 main();

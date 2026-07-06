@@ -1,29 +1,48 @@
 # Ottawa Public Skating Schedule
 
 A static site that compiles Public, Family, and Adult (18+) drop-in skating
-schedules from several City of Ottawa arena pages into one page, kept up to
-date by a scheduled scraper.
+schedules from several City of Ottawa arenas into one page, kept up to date
+by a scheduled job.
 
 ## How it works
 
-- `rinks.json` lists the rinks to track (name + ottawa.ca page URL).
-- `scraper/scrape.py` fetches each rink's page and parses its "Drop-in
-  schedule - skating" section: the schedule table(s) (filtered to Public
-  Skating, Family Skating, and Adult Skating (18+) rows) and the "Schedule
-  changes" cancellation bullet list. Output is written to `data/schedule.json`.
+- `rinks.json` lists the rinks to track (display name + the rink's ottawa.ca
+  facility page URL).
+- `scraper/scrape.py` reads [data.ottrec.ca](https://data.ottrec.ca/), a
+  community-maintained dataset that mirrors ottawa.ca's recreation schedules
+  (with permission) as clean, normalized JSON, refreshed daily. For each
+  configured rink it pulls out the Public/Family/Adult (18+) skating rows and
+  the matching cancellation notices, and writes `data/schedule.json`.
 - `index.html` / `app.js` / `style.css` render that JSON as a page, one card
   per rink.
 - `.github/workflows/scrape.yml` runs the scraper on a schedule (every two
-  days) and commits `data/schedule.json` if it changed, so the published
-  page stays current without any manual steps.
+  days) and commits `data/schedule.json` if it changed, so the published page
+  stays current without any manual steps.
 
-If a rink's page can't be scraped on a given run (site layout change, network
-hiccup, etc.), that rink keeps showing its last successfully scraped schedule
-with a "couldn't refresh" note, rather than going blank.
+If a rink's data can't be fetched on a given run, that rink keeps showing its
+last successfully scraped schedule with a "couldn't refresh" note, rather
+than going blank.
+
+### Why not scrape ottawa.ca directly?
+
+ottawa.ca sits behind an Imperva/Incapsula WAF that blocks GitHub-hosted
+runners' IP ranges outright (confirmed via direct `curl` and via headless
+Chromium — both got the same Incapsula challenge page from different runner
+IPs). That's an IP-reputation block, not a fingerprinting issue, so no client
+change fixes it from GitHub Actions. data.ottrec.ca republishes the same
+facility/schedule data (scraped from ottawa.ca with the City's permission)
+from infrastructure that isn't blocked, and as a bonus gives us normalized
+activity names instead of the inconsistently-worded labels each rink page
+uses (e.g. "Adult skating (18+)" vs "Adult skating (ages 18+)").
+
+Per data.ottrec.ca's license terms, its attribution text is fetched alongside
+the schedule data and displayed in the page footer — don't remove it.
 
 ## Adding a rink
 
-Add an entry to `rinks.json`:
+Add an entry to `rinks.json` using the rink's ottawa.ca facility page URL
+(this must match exactly, since it's used to look the rink up in the
+dataset):
 
 ```json
 {
@@ -32,9 +51,9 @@ Add an entry to `rinks.json`:
 }
 ```
 
-The next scrape run (scheduled or manual) will pick it up automatically. No
-other changes are needed as long as the page uses the same "Drop-in schedule
-- skating" layout as the other rinks.
+The next scrape run (scheduled or manual) will pick it up automatically, as
+long as data.ottrec.ca already covers that facility (it currently covers all
+City of Ottawa recreation facilities, so this should just work).
 
 ## Running the scraper locally
 
@@ -56,14 +75,18 @@ available at the repo's Pages URL and will pick up new commits to
 
 ## Notes
 
-- The scheduled workflow only runs on the repository's **default branch** —
-  merge this branch to your default branch for the cron schedule to take
-  effect. You can also trigger a run manually anytime from the Actions tab
-  ("Scrape skating schedules" → "Run workflow").
-- `cron: "0 12 */2 * */2"`-style "every N days" schedules are approximate:
+- GitHub Actions workflows only get registered/dispatchable once "Actions
+  permissions" for the repo (Settings → Actions → General) allows them, and
+  only after a push lands while that setting is already enabled. If a new
+  workflow file 404s on manual dispatch right after being added, check that
+  setting, then push any small change to nudge GitHub into re-scanning it.
+- The scheduled workflow only runs on the repository's **default branch**.
+  You can trigger a run manually anytime from the Actions tab ("Scrape
+  skating schedules" → "Run workflow").
+- `cron: "0 12 */2 * *"`-style "every N days" schedules are approximate:
   because they're expressed as "every 2nd day-of-month", the gap is briefly 1
   day around month boundaries (e.g. the 31st then the 1st). This is harmless
   here — worst case the schedule refreshes a day sooner than usual.
 - The scraper doesn't try to guess which cancellation notices are still
-  current; it shows exactly what's listed on the source page, so out-of-date
-  notices there would show here too.
+  current; it shows exactly what data.ottrec.ca has, so out-of-date notices
+  there would show here too.

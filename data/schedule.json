@@ -1,11 +1,16 @@
 {
-  "generated_at": "2026-07-06T20:05:25+00:00",
+  "generated_at": "2026-07-06T20:36:40+00:00",
+  "attribution": [
+    "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
+    "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
+    "Address data © Patrick Gaskin."
+  ],
   "rinks": [
     {
       "name": "Sandy Hill Arena",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "status": "ok",
-      "scraped_at": "2026-07-06T20:05:25+00:00",
+      "scraped_at": "2026-07-06T20:36:40+00:00",
       "tables": [
         {
           "caption": "Sandy Hill Arena - skating - June 29 to August 30",
@@ -29,7 +34,7 @@
               "name": "Family Skating",
               "days": {
                 "Friday": "5 - 5:50 pm",
-                "Sunday": "3 - 3:50 pm Play Free"
+                "Sunday": "3 - 3:50 pm"
               }
             },
             {
@@ -54,21 +59,39 @@
           "notes": [
             "All drop-in skating, cancelled"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Jim Durrell Recreation Centre",
+      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
+      "status": "ok",
+      "scraped_at": "2026-07-06T20:36:40+00:00",
+      "tables": [
+        {
+          "caption": "Jim Durrell Recreation Centre - skating - July 3 to August 31",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "sessions": [
+            {
+              "name": "Public Skating",
+              "days": {
+                "Monday": "5:15 - 6:05 pm"
+              }
+            }
+          ]
+        }
+      ],
+      "cancellations": [
         {
           "date": "Sunday, July 5",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        },
-        {
-          "date": "Monday, August 3",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        },
-        {
-          "date": "Friday, August 14",
           "notes": [
             "All drop-in skating, cancelled"
           ]
@@ -76,24 +99,68 @@
       ]
     },
     {
-      "name": "Jim Durrell Recreation Centre",
-      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "status": "pending",
-      "tables": [],
-      "cancellations": []
-    },
-    {
       "name": "Fred Barrett Arena",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "status": "pending",
-      "tables": [],
-      "cancellations": []
+      "status": "ok",
+      "scraped_at": "2026-07-06T20:36:40+00:00",
+      "tables": [
+        {
+          "caption": "Fred Barrett Arena - skating - June 2 to August 29",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "sessions": [
+            {
+              "name": "Adult Skating (18+)",
+              "days": {
+                "Tuesday": "3:15 - 4:05 pm"
+              }
+            }
+          ]
+        }
+      ],
+      "cancellations": [
+        {
+          "date": "Friday, August 14",
+          "notes": [
+            "All drop-in skating and ice sports, cancelled"
+          ]
+        }
+      ]
     },
     {
       "name": "Tom Brown Arena",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "status": "pending",
-      "tables": [],
+      "status": "ok",
+      "scraped_at": "2026-07-06T20:36:40+00:00",
+      "tables": [
+        {
+          "caption": "Tom Brown Arena - skating - May 8 to July 30",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "sessions": [
+            {
+              "name": "Public Skating",
+              "days": {
+                "Friday": "3 - 3:50 pm"
+              }
+            }
+          ]
+        }
+      ],
       "cancellations": []
     }
   ]

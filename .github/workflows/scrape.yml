@@ -1,5 +1,4 @@
 name: Scrape skating schedules
-# Trigger workflow (re-)registration on GitHub's side.
 
 on:
   schedule:
