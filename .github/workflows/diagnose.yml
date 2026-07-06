@@ -1,0 +1,20 @@
+name: Diagnose ottrec data source
+on:
+  workflow_dispatch: {}
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect data.ottrec.ca
+        run: |
+          echo "----- homepage -----"
+          curl -sS -A "Mozilla/5.0" "https://data.ottrec.ca/" -o home.html -w "STATUS:%{http_code}\n"
+          wc -c home.html
+          echo "----- links found -----"
+          grep -oE 'href="[^"]+"' home.html | sort -u | head -80
+          echo "----- try common endpoints -----"
+          for path in "schedule.json" "data.json" "drop-in.json" "api/schedule" "schedule.csv" "activities.json"; do
+            echo "=== $path ==="
+            curl -sS -A "Mozilla/5.0" -o /dev/null -w "STATUS:%{http_code} SIZE:%{size_download}\n" "https://data.ottrec.ca/$path"
+          done
