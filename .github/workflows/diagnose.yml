@@ -6,54 +6,20 @@ jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: pip install beautifulsoup4 lxml requests
-
-      - name: Map export links to their table names, then peek at content
+      - name: Inspect schema and top-level keys of latest export
         run: |
-          python3 - <<'EOF'
-          import re
-          import requests
-          from bs4 import BeautifulSoup
-
-          r = requests.get("https://data.ottrec.ca/", headers={"User-Agent": "Mozilla/5.0"})
-          soup = BeautifulSoup(r.text, "lxml")
-
-          # Find each block of export links and the nearest preceding heading/text
-          # to figure out which table each export id refers to.
-          seen = set()
-          links = soup.find_all("a", href=re.compile(r"^/export/"))
-          print("total export links:", len(links))
-
-          for a in links:
-              href = a["href"]
-              if not href.endswith(".json"):
-                  continue
-              token = href.split("/")[-1]
-              if token in seen:
-                  continue
-              seen.add(token)
-              # walk up to find context: nearest preceding sibling text / parent row
-              ctx = None
-              parent = a
-              for _ in range(6):
-                  parent = parent.parent
-                  if parent is None:
-                      break
-                  txt = parent.get_text(" ", strip=True)
-                  if txt and len(txt) < 400:
-                      ctx = txt
-              print("----")
-              print("HREF:", href)
-              print("CTX:", ctx)
-          EOF
-
-      - name: Peek at a couple of export JSON files
-        run: |
-          for token in "22FPLBS7FGCY7I3NB2KAK2FYAYOY75YK" "27BBF7PO34QCESCSUOKAMU2YPS3KJNL7" "27UJR7Y3LOBTU3PB3AUTRXH24LG4ZPF3"; do
-            echo "=== $token ==="
-            curl -sS -A "Mozilla/5.0" "https://data.ottrec.ca/export/$token.json" | head -c 800
-            echo
-          done
+          curl -sS -A "Mozilla/5.0" "https://data.ottrec.ca/export/schema.json" -o schema.json
+          echo "----- schema.json (first 6000 chars) -----"
+          head -c 6000 schema.json
+          echo
+          echo "----- fetching latest.json -----"
+          curl -sS -A "Mozilla/5.0" "https://data.ottrec.ca/export/latest.json" -o latest.json
+          wc -c latest.json
+          echo "----- top-level keys -----"
+          python3 -c "
+          import json
+          d = json.load(open('latest.json'))
+          for k in d:
+              v = d[k]
+              print(k, type(v), len(v) if hasattr(v, '__len__') else '')
+          "
