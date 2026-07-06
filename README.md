@@ -11,17 +11,35 @@ by a scheduled job.
 - `scraper/scrape.py` reads [data.ottrec.ca](https://data.ottrec.ca/), a
   community-maintained dataset that mirrors ottawa.ca's recreation schedules
   (with permission) as clean, normalized JSON, refreshed daily. For each
-  configured rink it pulls out the Public/Family/Adult (18+) skating rows and
-  the matching cancellation notices, and writes `data/schedule.json`.
-- `index.html` / `app.js` / `style.css` render that JSON as a page, one card
-  per rink.
+  configured rink it expands the recurring Public/Family/Adult (18+) skating
+  sessions into concrete calendar dates (today onward, through however far
+  that rink's published schedule window goes), parses the "Schedule changes"
+  cancellation notices into real dates, and drops any session that falls on
+  a cancelled date. The output, `data/schedule.json`, is just a flat list of
+  `{date, startTime, endTime, rink, type}` sessions — no separate
+  cancellation list, because cancelled sessions simply aren't in it.
+- `index.html` / `app.js` / `style.css` render that as Today / Week / Month
+  calendar views, with toggle chips to show/hide individual rinks.
 - `.github/workflows/scrape.yml` runs the scraper on a schedule (every two
   days) and commits `data/schedule.json` if it changed, so the published page
   stays current without any manual steps.
 
-If a rink's data can't be fetched on a given run, that rink keeps showing its
-last successfully scraped schedule with a "couldn't refresh" note, rather
-than going blank.
+If a rink's data can't be fetched on a given run, its previously-known
+sessions (today onward) keep showing, and its filter chip gets a small
+warning marker, rather than the rink just disappearing.
+
+### Cancellation date parsing
+
+The "Schedule changes" notices on ottawa.ca (e.g. "Friday, July 3" or "May 31
+to June 28") don't include a year, so `parse_cancellation_dates` in
+`scrape.py` infers it from the enclosing schedule's own `startDate`/`endDate`
+(which do have years). It only recognizes the two date-text patterns seen so
+far — a single `Month D` (optionally prefixed with a weekday name and comma)
+and a `Month D to Month D` range. If a rink's page ever phrases a
+cancellation differently, that notice is silently not parsed (the session
+stays visible) rather than the scraper failing — check `scraper/test_scrape.py`
+for the exact patterns covered, and extend the regexes there if you spot a
+new format.
 
 ### Why not scrape ottawa.ca directly?
 
@@ -47,9 +65,13 @@ dataset):
 ```json
 {
   "name": "Some Arena",
+  "shortName": "Some",
   "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/some-arena"
 }
 ```
+
+`shortName` is optional (falls back to `name`) and is only used for the
+compact per-day calendar entries, where space is tight.
 
 The next scrape run (scheduled or manual) will pick it up automatically, as
 long as data.ottrec.ca already covers that facility (it currently covers all

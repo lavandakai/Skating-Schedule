@@ -4,9 +4,10 @@
 Run with: python3 scraper/test_scrape.py
 """
 import json
+from datetime import date
 from pathlib import Path
 
-from scrape import build_rink_data
+from scrape import build_rink_sessions, parse_cancellation_dates
 
 FIXTURE = Path(__file__).parent / "fixtures" / "ottrec_sample.json"
 
@@ -17,82 +18,72 @@ def load_fixture():
     return data["activity"], html_by_id
 
 
-def test_sandy_hill():
+def test_parse_cancellation_dates_single():
+    ref_start, ref_end = date(2026, 6, 29), date(2026, 8, 30)
+    result = parse_cancellation_dates("Friday, July 3", ref_start, ref_end)
+    assert result == [(date(2026, 7, 3), date(2026, 7, 3))]
+    print("test_parse_cancellation_dates_single OK")
+
+
+def test_parse_cancellation_dates_range():
+    ref_start, ref_end = date(2026, 6, 29), date(2026, 8, 30)
+    result = parse_cancellation_dates("May 31 to June 28", ref_start, ref_end)
+    assert result == [(date(2026, 5, 31), date(2026, 6, 28))]
+    print("test_parse_cancellation_dates_range OK")
+
+
+def test_parse_cancellation_dates_unparseable_returns_empty():
+    ref_start, ref_end = date(2026, 6, 29), date(2026, 8, 30)
+    assert parse_cancellation_dates("Statutory holidays vary", ref_start, ref_end) == []
+    print("test_parse_cancellation_dates_unparseable_returns_empty OK")
+
+
+def test_sandy_hill_sessions_exclude_cancelled_dates():
     activities, html_by_id = load_fixture()
     rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
-    result = build_rink_data(rink, activities, html_by_id)
+    today = date(2026, 6, 29)
+    sessions = build_rink_sessions(rink, activities, html_by_id, today)
 
-    assert len(result["tables"]) == 1
-    table = result["tables"][0]
-    assert table["caption"] == "Sandy Hill Arena - skating - June 29 to August 30"
-    assert table["days"] == [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday",
-    ]
+    # exceptionsHtmlId 51 (skating group) cancels May 31-June 28 and Friday July 3;
+    # figure skate's ice-sports group (id 52) cancellation must not leak in since
+    # figure skate isn't one of our tracked session types anyway.
+    assert all(s["date"] != "2026-07-03" for s in sessions)
+    assert all(not ("2026-05-31" <= s["date"] <= "2026-06-28") for s in sessions)
 
-    sessions = {s["name"]: s["days"] for s in table["sessions"]}
-    assert sessions["Public Skating"] == {"Friday": "6 - 6:50 pm"}
-    assert sessions["Family Skating"] == {
-        "Friday": "5 - 5:50 pm",
-        "Sunday": "3 - 3:50 pm",
-    }
-    assert sessions["Adult Skating (18+)"] == {
-        "Monday": "4 - 4:50 pm",
-        "Tuesday": "9 - 9:50 pm",
-    }
-    # figure skate must never leak in even though it's in the same rawScheduleGroup family
-    assert "Figure Skating" not in sessions
-
-    # cancellations come only from the skating group's exceptionsHtmlId (51), not
-    # the ice sports group's (52)
-    assert result["cancellations"] == [
-        {"date": "May 31 to June 28", "notes": ["All drop-in skating, cancelled"]},
-        {"date": "Friday, July 3", "notes": ["All drop-in skating, cancelled"]},
-    ]
-    print("test_sandy_hill OK")
+    # the first Friday public skate after the cancellation window should still appear
+    assert any(
+        s["date"] == "2026-07-10" and s["type"] == "Public Skating" and s["startTime"] == "18:00"
+        for s in sessions
+    )
+    assert all(s["type"] != "Figure Skating" for s in sessions)
+    print("test_sandy_hill_sessions_exclude_cancelled_dates OK")
 
 
-def test_jim_durrell_time_formatting():
+def test_sessions_never_precede_today():
     activities, html_by_id = load_fixture()
-    rink = {"name": "Jim Durrell Recreation Centre", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre"}
-    result = build_rink_data(rink, activities, html_by_id)
-    sessions = {s["name"]: s["days"] for s in result["tables"][0]["sessions"]}
-    assert sessions["Public Skating"] == {"Monday": "5:15 - 6:05 pm"}
-    print("test_jim_durrell_time_formatting OK")
-
-
-def test_fred_barrett_wording_variant_normalizes():
-    activities, html_by_id = load_fixture()
-    rink = {"name": "Fred Barrett Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena"}
-    result = build_rink_data(rink, activities, html_by_id)
-    sessions = {s["name"]: s["days"] for s in result["tables"][0]["sessions"]}
-    # rawActivity says "Adult skating (ages 18+)" but normalized name matches ours
-    assert sessions["Adult Skating (18+)"] == {"Tuesday": "3:15 - 4:05 pm"}
-    print("test_fred_barrett_wording_variant_normalizes OK")
-
-
-def test_tom_brown_zero_exceptions_id_means_no_cancellations():
-    activities, html_by_id = load_fixture()
-    rink = {"name": "Tom Brown Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena"}
-    result = build_rink_data(rink, activities, html_by_id)
-    assert result["cancellations"] == []
-    print("test_tom_brown_zero_exceptions_id_means_no_cancellations OK")
+    rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
+    today = date(2026, 7, 15)
+    sessions = build_rink_sessions(rink, activities, html_by_id, today)
+    assert all(s["date"] >= "2026-07-15" for s in sessions)
+    print("test_sessions_never_precede_today OK")
 
 
 def test_unknown_rink_raises():
     activities, html_by_id = load_fixture()
     rink = {"name": "Nonexistent Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nonexistent-arena"}
     try:
-        build_rink_data(rink, activities, html_by_id)
+        build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
     except Exception as exc:
         assert "No matching" in str(exc)
         print("test_unknown_rink_raises OK")
         return
-    raise AssertionError("expected build_rink_data to raise for an unknown rink")
+    raise AssertionError("expected build_rink_sessions to raise for an unknown rink")
 
 
 if __name__ == "__main__":
-    test_sandy_hill()
-    test_jim_durrell_time_formatting()
-    test_fred_barrett_wording_variant_normalizes()
-    test_tom_brown_zero_exceptions_id_means_no_cancellations()
+    test_parse_cancellation_dates_single()
+    test_parse_cancellation_dates_range()
+    test_parse_cancellation_dates_unparseable_returns_empty()
+    test_sandy_hill_sessions_exclude_cancelled_dates()
+    test_sessions_never_precede_today()
     test_unknown_rink_raises()

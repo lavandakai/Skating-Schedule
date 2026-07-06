@@ -12,12 +12,19 @@ The dataset's `activity.name` field normalizes each rink's differently
 worded activity labels (e.g. "Adult skating (18+)" vs "Adult skating (ages
 18+)") down to a small stable set of strings, which is what SESSION_NAMES
 below filters on.
+
+Rather than shipping the frontend a weekly recurring pattern plus a
+separate list of cancellation notices, this expands everything into
+concrete calendar dates (today onward through each activity's own
+startDate/endDate window) with cancelled occurrences already removed. That
+way the site's Today/Week/Month views just filter a flat date list —
+schedule changes disappear automatically instead of needing their own UI.
 """
 import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -38,16 +45,38 @@ SESSION_NAMES = {
     "family skate": "Family Skating",
     "adult skate 18+": "Adult Skating (18+)",
 }
-SESSION_ORDER = list(SESSION_NAMES)
 
-DAY_ORDER = [
+DAY_NAMES = [
     "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
 ]
-DAY_LABELS = {d: d.capitalize() for d in DAY_ORDER}
+
+MONTHS = {
+    "jan": 1, "january": 1, "feb": 2, "february": 2, "mar": 3, "march": 3,
+    "apr": 4, "april": 4, "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
+    "aug": 8, "august": 8, "sep": 9, "sept": 9, "september": 9, "oct": 10,
+    "october": 10, "nov": 11, "november": 11, "dec": 12, "december": 12,
+}
+
+CANCELLATION_RANGE_RE = re.compile(
+    r"^(?:\w+,\s*)?([A-Za-z]+)\s+(\d{1,2})\s+to\s+(?:\w+,\s*)?([A-Za-z]+)\s+(\d{1,2})$"
+)
+CANCELLATION_SINGLE_RE = re.compile(r"^(?:\w+,\s*)?([A-Za-z]+)\s+(\d{1,2})$")
+
+try:
+    from zoneinfo import ZoneInfo
+    OTTAWA_TZ = ZoneInfo("America/Toronto")
+except Exception:
+    OTTAWA_TZ = None
 
 
 class ScrapeError(Exception):
     pass
+
+
+def today_in_ottawa():
+    if OTTAWA_TZ is not None:
+        return datetime.now(OTTAWA_TZ).date()
+    return datetime.now(timezone.utc).date()
 
 
 def clean_text(text):
@@ -68,21 +97,6 @@ def fetch_dataset():
             if attempt < MAX_ATTEMPTS:
                 time.sleep(RETRY_BACKOFF_SECONDS * attempt)
     raise ScrapeError(f"Failed to fetch {DATASET_URL}: {last_error}")
-
-
-def format_time_range(start, end):
-    def parts(value):
-        hour, minute = (int(x) for x in value.split(":"))
-        period = "am" if hour < 12 else "pm"
-        hour12 = hour % 12 or 12
-        label = str(hour12) if minute == 0 else f"{hour12}:{minute:02d}"
-        return label, period
-
-    start_label, start_period = parts(start)
-    end_label, end_period = parts(end)
-    if start_period == end_period:
-        return f"{start_label} - {end_label} {end_period}"
-    return f"{start_label} {start_period} - {end_label} {end_period}"
 
 
 def parse_cancellation_fragment(html_fragment):
@@ -117,7 +131,63 @@ def parse_cancellation_fragment(html_fragment):
     return cancellations
 
 
-def build_rink_data(rink, activities, html_by_id):
+def _build_date(month_name, day, ref_start, ref_end):
+    month = MONTHS.get(month_name.strip().lower())
+    if not month:
+        return None
+    day = int(day)
+    for year in (ref_start.year, ref_start.year + 1, ref_start.year - 1):
+        try:
+            candidate = date(year, month, day)
+        except ValueError:
+            continue
+        if ref_start - timedelta(days=21) <= candidate <= ref_end + timedelta(days=21):
+            return candidate
+    try:
+        return date(ref_start.year, month, day)
+    except ValueError:
+        return None
+
+
+def parse_cancellation_dates(text, ref_start, ref_end):
+    """Parse a cancellation notice's date text (no year given) into a list
+    of (start, end) inclusive date ranges, using ref_start/ref_end (the
+    schedule's own date range) to infer the year. Returns [] if the text
+    doesn't match a recognized pattern."""
+    if not text:
+        return []
+    text = text.strip()
+
+    match = CANCELLATION_RANGE_RE.match(text)
+    if match:
+        month1, day1, month2, day2 = match.groups()
+        start = _build_date(month1, day1, ref_start, ref_end)
+        end = _build_date(month2, day2, ref_start, ref_end)
+        if start and end:
+            if end < start:
+                end = end.replace(year=end.year + 1)
+            return [(start, end)]
+        return []
+
+    match = CANCELLATION_SINGLE_RE.match(text)
+    if match:
+        month1, day1 = match.groups()
+        d = _build_date(month1, day1, ref_start, ref_end)
+        if d:
+            return [(d, d)]
+    return []
+
+
+def _parse_iso_date(value):
+    if not value:
+        return None
+    try:
+        return date.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def build_rink_sessions(rink, activities, html_by_id, today):
     matches = [
         a for a in activities
         if a["facilityUrl"] == rink["url"] and a["name"] in SESSION_NAMES
@@ -125,49 +195,46 @@ def build_rink_data(rink, activities, html_by_id):
     if not matches:
         raise ScrapeError("No matching skating sessions found in the dataset")
 
-    groups = {}
+    excluded_ranges = []
+    seen_exception_ids = set()
     for activity in matches:
-        caption = activity.get("rawSchedule") or (
-            f"{activity.get('startDate', '?')} to {activity.get('endDate', '?')}"
-        )
-        groups.setdefault(caption, []).append(activity)
+        eid = activity.get("exceptionsHtmlId")
+        if not eid or eid in seen_exception_ids:
+            continue
+        seen_exception_ids.add(eid)
+        group_start = _parse_iso_date(activity.get("startDate"))
+        group_end = _parse_iso_date(activity.get("endDate"))
+        if not group_start or not group_end:
+            continue
+        for entry in parse_cancellation_fragment(html_by_id.get(eid)):
+            excluded_ranges.extend(
+                parse_cancellation_dates(entry.get("date"), group_start, group_end)
+            )
 
-    tables = []
-    exception_ids = set()
-    for caption, entries in groups.items():
-        sessions = {name: {} for name in SESSION_ORDER}
-        for entry in entries:
-            weekday = (entry.get("weekday") or "").lower()
-            if weekday not in DAY_ORDER:
-                continue
-            start_time, end_time = entry.get("startTime"), entry.get("endTime")
-            if not start_time or not end_time:
-                continue
-            day_label = DAY_LABELS[weekday]
-            time_label = format_time_range(start_time, end_time)
-            day_map = sessions[entry["name"]]
-            if day_label in day_map:
-                day_map[day_label] += f"; {time_label}"
-            else:
-                day_map[day_label] = time_label
-            if entry.get("exceptionsHtmlId"):
-                exception_ids.add(entry["exceptionsHtmlId"])
+    sessions = []
+    for activity in matches:
+        start = _parse_iso_date(activity.get("startDate"))
+        end = _parse_iso_date(activity.get("endDate"))
+        weekday = (activity.get("weekday") or "").lower()
+        start_time, end_time = activity.get("startTime"), activity.get("endTime")
+        if not (start and end and weekday in DAY_NAMES and start_time and end_time):
+            continue
 
-        tables.append({
-            "caption": caption,
-            "days": [DAY_LABELS[d] for d in DAY_ORDER],
-            "sessions": [
-                {"name": SESSION_NAMES[name], "days": sessions[name]}
-                for name in SESSION_ORDER
-                if sessions[name]
-            ],
-        })
+        cursor = max(start, today)
+        while cursor <= end:
+            if DAY_NAMES[cursor.weekday()] == weekday:
+                if not any(r_start <= cursor <= r_end for r_start, r_end in excluded_ranges):
+                    sessions.append({
+                        "date": cursor.isoformat(),
+                        "startTime": start_time,
+                        "endTime": end_time,
+                        "rink": rink["name"],
+                        "rinkShort": rink.get("shortName", rink["name"]),
+                        "type": SESSION_NAMES[activity["name"]],
+                    })
+            cursor += timedelta(days=1)
 
-    cancellations = []
-    for eid in exception_ids:
-        cancellations.extend(parse_cancellation_fragment(html_by_id.get(eid)))
-
-    return {"tables": tables, "cancellations": cancellations}
+    return sessions
 
 
 def load_json(path, default):
@@ -185,8 +252,11 @@ def main():
         print(f"No rinks configured in {RINKS_FILE}", file=sys.stderr)
         sys.exit(1)
 
-    previous = load_json(OUTPUT_FILE, {"rinks": []})
-    previous_by_name = {rink["name"]: rink for rink in previous.get("rinks", [])}
+    today = today_in_ottawa()
+    previous = load_json(OUTPUT_FILE, {"rinks": [], "sessions": []})
+    previous_sessions_by_rink = {}
+    for session in previous.get("sessions", []):
+        previous_sessions_by_rink.setdefault(session["rink"], []).append(session)
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
@@ -201,54 +271,53 @@ def main():
         attribution = previous.get("attribution", [])
         dataset_error = str(exc)
 
-    results = []
+    rink_results = []
+    all_sessions = []
     failures = 0
 
     for rink in rinks:
         name = rink["name"]
         print(f"Processing {name}...")
         error = dataset_error
-        parsed = None
+        sessions = None
         if error is None:
             try:
-                parsed = build_rink_data(rink, activities, html_by_id)
+                sessions = build_rink_sessions(rink, activities, html_by_id, today)
             except ScrapeError as exc:
                 error = str(exc)
 
-        if parsed is not None:
-            results.append({
-                "name": name,
-                "url": rink["url"],
-                "status": "ok",
-                "scraped_at": now,
-                "tables": parsed["tables"],
-                "cancellations": parsed["cancellations"],
-            })
+        if sessions is not None:
+            rink_results.append({"name": name, "url": rink["url"], "status": "ok"})
+            all_sessions.extend(sessions)
             continue
 
         failures += 1
         print(f"  failed: {error}", file=sys.stderr)
-        previous_entry = previous_by_name.get(name)
-        if previous_entry and previous_entry.get("tables"):
-            results.append({**previous_entry, "status": "stale", "error": error})
-        else:
-            results.append({
-                "name": name,
-                "url": rink["url"],
-                "status": "error",
-                "error": error,
-                "tables": [],
-                "cancellations": [],
+        fallback = [
+            s for s in previous_sessions_by_rink.get(name, [])
+            if s["date"] >= today.isoformat()
+        ]
+        if fallback:
+            rink_results.append({
+                "name": name, "url": rink["url"], "status": "stale", "error": error,
             })
+            all_sessions.extend(fallback)
+        else:
+            rink_results.append({
+                "name": name, "url": rink["url"], "status": "error", "error": error,
+            })
+
+    all_sessions.sort(key=lambda s: (s["date"], s["startTime"]))
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(json.dumps({
         "generated_at": now,
         "attribution": attribution,
-        "rinks": results,
+        "rinks": rink_results,
+        "sessions": all_sessions,
     }, indent=2, ensure_ascii=False) + "\n")
 
-    print(f"Wrote {OUTPUT_FILE} ({len(results)} rinks, {failures} failures)")
+    print(f"Wrote {OUTPUT_FILE} ({len(rink_results)} rinks, {len(all_sessions)} sessions, {failures} failures)")
     if failures == len(rinks):
         sys.exit(1)
 

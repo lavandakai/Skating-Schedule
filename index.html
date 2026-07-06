@@ -19,7 +19,24 @@
     <p id="generated-at" class="generated-at"></p>
   </header>
 
-  <main id="rinks"></main>
+  <div class="controls">
+    <div class="tabs" id="tabs" role="tablist">
+      <button class="tab" data-view="today" role="tab">Today</button>
+      <button class="tab" data-view="week" role="tab">Week</button>
+      <button class="tab" data-view="month" role="tab">Month</button>
+    </div>
+    <div class="rink-filters" id="rink-filters"></div>
+  </div>
+
+  <div class="nav-row" id="nav-row">
+    <button class="nav-btn" id="nav-prev" aria-label="Previous">&#8249;</button>
+    <span class="nav-label" id="nav-label"></span>
+    <button class="nav-btn" id="nav-next" aria-label="Next">&#8250;</button>
+  </div>
+
+  <div class="legend" id="legend"></div>
+
+  <main id="calendar"></main>
 
   <footer>
     <p>Refreshed every couple of days. Always subject to change &mdash;

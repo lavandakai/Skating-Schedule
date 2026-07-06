@@ -1,18 +1,22 @@
 [
   {
     "name": "Sandy Hill Arena",
+    "shortName": "Sandy Hill",
     "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"
   },
   {
     "name": "Jim Durrell Recreation Centre",
+    "shortName": "Jim Durrell",
     "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre"
   },
   {
     "name": "Fred Barrett Arena",
+    "shortName": "Fred Barrett",
     "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena"
   },
   {
     "name": "Tom Brown Arena",
+    "shortName": "Tom Brown",
     "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena"
   }
 ]

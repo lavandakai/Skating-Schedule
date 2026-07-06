@@ -96,131 +96,260 @@ h1 {
 main {
   max-width: 900px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
 }
 
-.rink-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border);
-  border-radius: 22px;
-  padding: 1.5rem 1.75rem 1.75rem;
-  box-shadow: var(--shadow);
-}
-
-.rink-card h2 {
-  margin: 0 0 0.25rem;
-  font-size: 1.3rem;
-  font-weight: 800;
-}
-
-.rink-card h2 a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.rink-card h2 a:hover {
-  text-decoration: underline;
-}
-
-.status-note {
-  font-size: 0.85rem;
-  font-weight: 700;
-  margin: 0 0 0.75rem;
-}
-
-.status-note.stale {
-  color: var(--stale);
-}
-
-.status-note.error {
-  color: var(--error);
-}
-
-.status-note.pending {
-  color: var(--muted);
-}
-
-.table-caption {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin: 1.1rem 0 0.75rem;
-}
-
-.schedule-block + .table-caption {
-  margin-top: 1.5rem;
-}
-
-.session-row {
+.controls {
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem 0.6rem;
-  padding: 0.6rem 0;
-  border-bottom: 1px dashed var(--border);
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
 }
 
-.session-row:last-child {
+.tabs {
+  display: flex;
+  gap: 0.4rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.3rem;
+  box-shadow: var(--shadow);
+}
+
+.tab {
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 0.9rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: #fff;
+  background: var(--accent);
+}
+
+.rink-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.rink-chip {
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--muted);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.rink-chip.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.nav-row {
+  max-width: 900px;
+  margin: 0 auto 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-row.hidden {
+  display: none;
+}
+
+.nav-btn {
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text);
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.nav-label {
+  font-weight: 800;
+  min-width: 11rem;
+  text-align: center;
+}
+
+.legend {
+  max-width: 900px;
+  margin: 0 auto 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.dot {
+  display: inline-block;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  flex: 0 0 auto;
+}
+
+.dot.public { background: var(--public); }
+.dot.family { background: var(--family); }
+.dot.adult  { background: var(--adult); }
+
+.cal-grid {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.cal-headrow,
+.cal-body {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.cal-headcell {
+  padding: 0.6rem 0.4rem;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 1px solid var(--border);
+}
+
+.cal-cell {
+  min-height: 5.5rem;
+  padding: 0.4rem;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.cal-grid.week .cal-cell {
+  min-height: 8rem;
+}
+
+.cal-cell:nth-child(7n) {
+  border-right: none;
+}
+
+.cal-cell.muted {
+  background: var(--bg-accent);
+  opacity: 0.55;
+}
+
+.cal-cell.today {
+  background: var(--accent-soft);
+}
+
+.cal-daynum {
+  font-size: 0.8rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.cal-events {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.cal-event {
+  font-size: 0.72rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cal-event strong {
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.today-view {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 1.5rem 1.75rem;
+  box-shadow: var(--shadow);
+}
+
+.today-date {
+  margin: 0 0 1rem;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.today-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed var(--border);
+  flex-wrap: wrap;
+}
+
+.today-row:last-child {
   border-bottom: none;
 }
 
-.session-pill {
-  flex: 0 0 auto;
-  font-size: 0.8rem;
+.today-time {
   font-weight: 800;
-  padding: 0.3rem 0.75rem;
-  border-radius: 999px;
-  white-space: nowrap;
+  min-width: 8rem;
 }
 
-.session-pill.public { color: var(--public); background: var(--public-bg); }
-.session-pill.family { color: var(--family); background: var(--family-bg); }
-.session-pill.adult  { color: var(--adult);  background: var(--adult-bg); }
+.today-rink {
+  font-weight: 700;
+}
 
-.time-chip {
+.today-type {
+  color: var(--muted);
   font-size: 0.85rem;
   font-weight: 600;
-  color: var(--text);
-  background: var(--bg-accent);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 0.25rem 0.6rem;
-  white-space: nowrap;
 }
 
-.time-chip .day {
-  font-weight: 800;
-  margin-right: 0.3rem;
-}
-
-.cancellations {
-  margin-top: 1.25rem;
-  background: var(--accent-soft);
-  border-radius: 16px;
-  padding: 1rem 1.25rem;
-}
-
-.cancellations h3 {
-  font-size: 0.95rem;
-  margin: 0 0 0.5rem;
-  color: var(--accent);
-}
-
-.cancellations ul {
-  margin: 0;
-  padding-left: 1.1rem;
-}
-
-.cancellations li {
-  margin-bottom: 0.3rem;
-}
-
-.cancellations .date {
-  font-weight: 800;
+@media (max-width: 640px) {
+  .cal-grid {
+    overflow-x: auto;
+  }
+  .cal-headrow,
+  .cal-body {
+    min-width: 480px;
+  }
 }
 
 footer {

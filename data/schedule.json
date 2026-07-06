@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T20:38:00+00:00",
+  "generated_at": "2026-07-06T20:59:59+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -9,212 +9,504 @@
     {
       "name": "Sandy Hill Arena",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "status": "ok",
-      "scraped_at": "2026-07-06T20:38:00+00:00",
-      "tables": [
-        {
-          "caption": "Sandy Hill Arena - skating - June 29 to August 30",
-          "days": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "sessions": [
-            {
-              "name": "Public Skating",
-              "days": {
-                "Friday": "6 - 6:50 pm"
-              }
-            },
-            {
-              "name": "Family Skating",
-              "days": {
-                "Friday": "5 - 5:50 pm",
-                "Sunday": "3 - 3:50 pm"
-              }
-            },
-            {
-              "name": "Adult Skating (18+)",
-              "days": {
-                "Monday": "4 - 4:50 pm",
-                "Tuesday": "9 - 9:50 pm"
-              }
-            }
-          ]
-        }
-      ],
-      "cancellations": [
-        {
-          "date": "May 31 to June 28",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        },
-        {
-          "date": "Friday, July 3",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        },
-        {
-          "date": "Sunday, July 5",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        },
-        {
-          "date": "Monday, August 3",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        },
-        {
-          "date": "Friday, August 14",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        }
-      ]
+      "status": "ok"
     },
     {
       "name": "Jim Durrell Recreation Centre",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "status": "ok",
-      "scraped_at": "2026-07-06T20:38:00+00:00",
-      "tables": [
-        {
-          "caption": "Jim Durrell Recreation Centre - skating - July 3 to August 31",
-          "days": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "sessions": [
-            {
-              "name": "Public Skating",
-              "days": {
-                "Monday": "5:15 - 6:05 pm",
-                "Wednesday": "6 - 6:50 pm",
-                "Sunday": "4:15 - 5:05 pm"
-              }
-            },
-            {
-              "name": "Family Skating",
-              "days": {
-                "Monday": "4:15 - 5:05 pm",
-                "Sunday": "3:15 - 4:05 pm"
-              }
-            }
-          ]
-        }
-      ],
-      "cancellations": [
-        {
-          "date": "Sunday, July 5",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        },
-        {
-          "date": "Sunday, August 16",
-          "notes": [
-            "All drop-in skating, cancelled"
-          ]
-        }
-      ]
+      "status": "ok"
     },
     {
       "name": "Fred Barrett Arena",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "status": "ok",
-      "scraped_at": "2026-07-06T20:38:00+00:00",
-      "tables": [
-        {
-          "caption": "Fred Barrett Arena - skating - June 2 to August 29",
-          "days": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "sessions": [
-            {
-              "name": "Public Skating",
-              "days": {
-                "Tuesday": "4:15 - 5:05 pm",
-                "Friday": "8:15 - 9:05 pm",
-                "Saturday": "4:15 - 5:05 pm"
-              }
-            },
-            {
-              "name": "Family Skating",
-              "days": {
-                "Saturday": "3:15 - 4:05 pm"
-              }
-            },
-            {
-              "name": "Adult Skating (18+)",
-              "days": {
-                "Tuesday": "3:15 - 4:05 pm"
-              }
-            }
-          ]
-        }
-      ],
-      "cancellations": [
-        {
-          "date": "Friday, August 14",
-          "notes": [
-            "All drop-in skating and ice sports, cancelled"
-          ]
-        },
-        {
-          "date": "Saturday, August 15",
-          "notes": [
-            "All drop-in skating and ice sports, cancelled"
-          ]
-        }
-      ]
+      "status": "ok"
     },
     {
       "name": "Tom Brown Arena",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "status": "ok",
-      "scraped_at": "2026-07-06T20:38:00+00:00",
-      "tables": [
-        {
-          "caption": "Tom Brown Arena - skating - May 8 to July 30",
-          "days": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "sessions": [
-            {
-              "name": "Public Skating",
-              "days": {
-                "Friday": "3 - 3:50 pm"
-              }
-            }
-          ]
-        }
-      ],
-      "cancellations": []
+      "status": "ok"
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2026-07-06",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-06",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-07",
+      "startTime": "15:15",
+      "endTime": "16:05",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-07",
+      "startTime": "21:00",
+      "endTime": "21:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-10",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Tom Brown Arena",
+      "rinkShort": "Tom Brown",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-10",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-07-10",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-12",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-07-13",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-13",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-14",
+      "startTime": "15:15",
+      "endTime": "16:05",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-14",
+      "startTime": "21:00",
+      "endTime": "21:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-17",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Tom Brown Arena",
+      "rinkShort": "Tom Brown",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-17",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-07-17",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-19",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-07-20",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-20",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-21",
+      "startTime": "15:15",
+      "endTime": "16:05",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-21",
+      "startTime": "21:00",
+      "endTime": "21:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-24",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Tom Brown Arena",
+      "rinkShort": "Tom Brown",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-24",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-07-24",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-26",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-07-27",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-27",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-28",
+      "startTime": "15:15",
+      "endTime": "16:05",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-28",
+      "startTime": "21:00",
+      "endTime": "21:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-07-31",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-07-31",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-02",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-03",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-03",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-04",
+      "startTime": "15:15",
+      "endTime": "16:05",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-04",
+      "startTime": "21:00",
+      "endTime": "21:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-07",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-07",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-09",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-10",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-10",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-11",
+      "startTime": "15:15",
+      "endTime": "16:05",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-11",
+      "startTime": "21:00",
+      "endTime": "21:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-14",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-14",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-16",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-17",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-17",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-18",
+      "startTime": "15:15",
+      "endTime": "16:05",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-18",
+      "startTime": "21:00",
+      "endTime": "21:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-21",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-21",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-23",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-24",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-24",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-25",
+      "startTime": "15:15",
+      "endTime": "16:05",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-25",
+      "startTime": "21:00",
+      "endTime": "21:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Adult Skating (18+)"
+    },
+    {
+      "date": "2026-08-28",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-28",
+      "startTime": "18:00",
+      "endTime": "18:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-30",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-31",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Jim Durrell Recreation Centre",
+      "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
     }
   ]
 }
