@@ -277,6 +277,7 @@ def main():
 
     for rink in rinks:
         name = rink["name"]
+        short_name = rink.get("shortName", name)
         print(f"Processing {name}...")
         error = dataset_error
         sessions = None
@@ -287,7 +288,9 @@ def main():
                 error = str(exc)
 
         if sessions is not None:
-            rink_results.append({"name": name, "url": rink["url"], "status": "ok"})
+            rink_results.append({
+                "name": name, "shortName": short_name, "url": rink["url"], "status": "ok",
+            })
             all_sessions.extend(sessions)
             continue
 
@@ -299,12 +302,14 @@ def main():
         ]
         if fallback:
             rink_results.append({
-                "name": name, "url": rink["url"], "status": "stale", "error": error,
+                "name": name, "shortName": short_name, "url": rink["url"],
+                "status": "stale", "error": error,
             })
             all_sessions.extend(fallback)
         else:
             rink_results.append({
-                "name": name, "url": rink["url"], "status": "error", "error": error,
+                "name": name, "shortName": short_name, "url": rink["url"],
+                "status": "error", "error": error,
             })
 
     all_sessions.sort(key=lambda s: (s["date"], s["startTime"]))

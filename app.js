@@ -16,6 +16,7 @@ const state = {
   activeRinks: new Set(),
   view: "today",
   anchor: new Date(),
+  selectedDate: null,
 };
 
 function pad(n) {
@@ -98,7 +99,8 @@ function renderRinkFilters() {
       const active = state.activeRinks.has(rink.name);
       const flagged = rink.status === "error" || rink.status === "stale";
       const title = flagged && rink.error ? ` title="${escapeHtml(rink.error)}"` : "";
-      return `<button class="rink-chip${active ? " active" : ""}" data-rink="${escapeHtml(rink.name)}"${title}>${escapeHtml(rink.name)}${flagged ? " &#9888;" : ""}</button>`;
+      const label = escapeHtml(rink.shortName || rink.name);
+      return `<button class="rink-chip${active ? " active" : ""}" data-rink="${escapeHtml(rink.name)}"${title}>${label}${flagged ? " &#9888;" : ""}</button>`;
     })
     .join("");
 
@@ -116,9 +118,12 @@ function renderRinkFilters() {
   });
 }
 
-function renderEvent(session) {
-  const cls = SESSION_CLASSES[session.type] || "public";
-  return `<div class="cal-event"><span class="dot ${cls}"></span>${formatClock(session.startTime)} <strong>${escapeHtml(session.rinkShort || session.rink)}</strong></div>`;
+function renderDayDots(events) {
+  if (!events.length) return "";
+  const dots = events
+    .map((s) => `<span class="dot ${SESSION_CLASSES[s.type] || "public"}"></span>`)
+    .join("");
+  return `<div class="cal-dots">${dots}</div>`;
 }
 
 function renderDayCell(date, sessionsByDate, { muted } = {}) {
@@ -128,12 +133,12 @@ function renderDayCell(date, sessionsByDate, { muted } = {}) {
   const classes = ["cal-cell"];
   if (muted) classes.push("muted");
   if (iso === todayIso) classes.push("today");
-  const eventsHtml = events.map(renderEvent).join("");
+  if (iso === state.selectedDate) classes.push("selected");
   return `
-    <div class="${classes.join(" ")}">
-      <div class="cal-daynum">${date.getDate()}</div>
-      <div class="cal-events">${eventsHtml}</div>
-    </div>
+    <button type="button" class="${classes.join(" ")}" data-date="${iso}">
+      <span class="cal-daynum">${date.getDate()}</span>
+      ${renderDayDots(events)}
+    </button>
   `;
 }
 
@@ -168,33 +173,51 @@ function renderMonthView(sessionsByDate) {
   `;
 }
 
+function renderSessionRow(session) {
+  return `
+    <div class="today-row">
+      <span class="today-time">
+        <span class="dot ${SESSION_CLASSES[session.type] || "public"}"></span>
+        ${formatClock(session.startTime)}&ndash;${formatClock(session.endTime)}
+      </span>
+      <span class="today-meta"><strong>${escapeHtml(session.rinkShort || session.rink)}</strong> &middot; ${escapeHtml(session.type)}</span>
+    </div>
+  `;
+}
+
+function renderDaySessions(label, events) {
+  if (!events.length) {
+    return `<p class="today-date">${label}</p><p class="empty-state">No skating scheduled. &#10052;&#65039;</p>`;
+  }
+  return `<p class="today-date">${label}</p>${events.map(renderSessionRow).join("")}`;
+}
+
 function renderTodayView(sessionsByDate) {
   const today = stripTime(new Date());
   const events = sessionsByDate.get(toISODate(today)) || [];
   const label = today.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" });
+  return `<div class="today-view">${renderDaySessions(label, events)}</div>`;
+}
 
-  if (!events.length) {
-    return `
-      <div class="today-view">
-        <p class="today-date">${label}</p>
-        <p class="empty-state">No skating scheduled today. &#10052;&#65039;</p>
-      </div>
-    `;
+function renderDayDetail(sessionsByDate) {
+  const el = document.getElementById("day-detail");
+  if (state.view === "today") {
+    el.classList.add("hidden");
+    el.innerHTML = "";
+    return;
+  }
+  el.classList.remove("hidden");
+
+  if (!state.selectedDate) {
+    el.innerHTML = `<p class="day-detail-hint">Tap a day above to see its skating times.</p>`;
+    return;
   }
 
-  const rows = events
-    .map((session) => `
-      <div class="today-row">
-        <span class="today-time">
-          <span class="dot ${SESSION_CLASSES[session.type] || "public"}"></span>
-          ${formatClock(session.startTime)}&ndash;${formatClock(session.endTime)}
-        </span>
-        <span class="today-meta"><strong>${escapeHtml(session.rink)}</strong> &middot; ${escapeHtml(session.type)}</span>
-      </div>
-    `)
-    .join("");
-
-  return `<div class="today-view"><p class="today-date">${label}</p>${rows}</div>`;
+  const events = sessionsByDate.get(state.selectedDate) || [];
+  const label = new Date(`${state.selectedDate}T00:00:00`).toLocaleDateString(undefined, {
+    weekday: "long", month: "long", day: "numeric",
+  });
+  el.innerHTML = renderDaySessions(label, events);
 }
 
 function updateNav() {
@@ -225,11 +248,16 @@ function renderCalendar() {
   const sessionsByDate = groupSessionsByDate(state.data.sessions, state.activeRinks);
   if (state.view === "today") {
     container.innerHTML = renderTodayView(sessionsByDate);
-  } else if (state.view === "week") {
-    container.innerHTML = renderWeekView(sessionsByDate);
   } else {
-    container.innerHTML = renderMonthView(sessionsByDate);
+    container.innerHTML = state.view === "week" ? renderWeekView(sessionsByDate) : renderMonthView(sessionsByDate);
+    container.querySelectorAll(".cal-cell[data-date]").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.selectedDate = btn.dataset.date;
+        renderCalendar();
+      });
+    });
   }
+  renderDayDetail(sessionsByDate);
 }
 
 async function main() {
@@ -262,7 +290,8 @@ async function main() {
     if (btn.dataset.view === "today") btn.classList.add("active");
     btn.addEventListener("click", () => {
       state.view = btn.dataset.view;
-      if (state.view === "today") state.anchor = new Date();
+      state.anchor = new Date();
+      state.selectedDate = state.view === "today" ? null : toISODate(new Date());
       document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("active", b === btn));
       renderCalendar();
     });
@@ -270,10 +299,12 @@ async function main() {
 
   document.getElementById("nav-prev").addEventListener("click", () => {
     state.anchor = state.view === "week" ? addDays(state.anchor, -7) : addMonths(state.anchor, -1);
+    state.selectedDate = null;
     renderCalendar();
   });
   document.getElementById("nav-next").addEventListener("click", () => {
     state.anchor = state.view === "week" ? addDays(state.anchor, 7) : addMonths(state.anchor, 1);
+    state.selectedDate = null;
     renderCalendar();
   });
 
