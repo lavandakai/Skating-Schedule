@@ -11,38 +11,49 @@ jobs:
           python-version: "3.12"
       - run: pip install beautifulsoup4 lxml requests
 
-      - name: Inspect data.ottrec.ca structure
+      - name: Map export links to their table names, then peek at content
         run: |
           python3 - <<'EOF'
+          import re
           import requests
           from bs4 import BeautifulSoup
 
           r = requests.get("https://data.ottrec.ca/", headers={"User-Agent": "Mozilla/5.0"})
-          print("STATUS", r.status_code, "LEN", len(r.text))
           soup = BeautifulSoup(r.text, "lxml")
 
-          text = r.text
-          idx = text.lower().find("sandy hill")
-          print("----- 'sandy hill' context -----")
-          print(text[max(0,idx-500):idx+500] if idx != -1 else "NOT FOUND")
+          # Find each block of export links and the nearest preceding heading/text
+          # to figure out which table each export id refers to.
+          seen = set()
+          links = soup.find_all("a", href=re.compile(r"^/export/"))
+          print("total export links:", len(links))
 
-          idx2 = text.lower().find("skat")
-          print("----- 'skat' context -----")
-          print(text[max(0,idx2-500):idx2+500] if idx2 != -1 else "NOT FOUND")
-
-          print("----- headings -----")
-          for h in soup.find_all(["h1","h2","h3","h4"]):
-              print(repr(h.get_text(strip=True)))
-
-          print("----- table row sample (first 3 rows w/ export links) -----")
-          rows = soup.find_all("tr")
-          print("num tr:", len(rows))
-          for row in rows[:5]:
-              print(row.get_text(" ", strip=True)[:300])
-
-          print("----- list items sample -----")
-          items = soup.find_all("li")
-          print("num li:", len(items))
-          for li in items[:5]:
-              print(li.get_text(" ", strip=True)[:300])
+          for a in links:
+              href = a["href"]
+              if not href.endswith(".json"):
+                  continue
+              token = href.split("/")[-1]
+              if token in seen:
+                  continue
+              seen.add(token)
+              # walk up to find context: nearest preceding sibling text / parent row
+              ctx = None
+              parent = a
+              for _ in range(6):
+                  parent = parent.parent
+                  if parent is None:
+                      break
+                  txt = parent.get_text(" ", strip=True)
+                  if txt and len(txt) < 400:
+                      ctx = txt
+              print("----")
+              print("HREF:", href)
+              print("CTX:", ctx)
           EOF
+
+      - name: Peek at a couple of export JSON files
+        run: |
+          for token in "22FPLBS7FGCY7I3NB2KAK2FYAYOY75YK" "27BBF7PO34QCESCSUOKAMU2YPS3KJNL7" "27UJR7Y3LOBTU3PB3AUTRXH24LG4ZPF3"; do
+            echo "=== $token ==="
+            curl -sS -A "Mozilla/5.0" "https://data.ottrec.ca/export/$token.json" | head -c 800
+            echo
+          done
