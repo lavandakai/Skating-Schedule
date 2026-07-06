@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T21:36:09+00:00",
+  "generated_at": "2026-07-06T22:26:27+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -28,6 +28,18 @@
       "name": "Tom Brown Arena",
       "shortName": "Tom Brown",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
+      "status": "ok"
+    },
+    {
+      "name": "Bob MacQuarrie Recreation Complex - Orleans",
+      "shortName": "MacQuarrie",
+      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "status": "ok"
+    },
+    {
+      "name": "Minto Recreation Complex - Barrhaven",
+      "shortName": "Minto",
+      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "status": "ok"
     }
   ],
@@ -134,6 +146,14 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-11",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
       "type": "Public Skating"
     },
     {
@@ -265,6 +285,14 @@
       "type": "Public Skating"
     },
     {
+      "date": "2026-07-18",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "type": "Public Skating"
+    },
+    {
       "date": "2026-07-19",
       "startTime": "15:00",
       "endTime": "15:50",
@@ -393,6 +421,14 @@
       "type": "Public Skating"
     },
     {
+      "date": "2026-07-25",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "type": "Public Skating"
+    },
+    {
       "date": "2026-07-26",
       "startTime": "15:00",
       "endTime": "15:50",
@@ -414,6 +450,22 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-07-26",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-07-26",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
       "type": "Public Skating"
     },
     {
@@ -513,6 +565,14 @@
       "type": "Public Skating"
     },
     {
+      "date": "2026-08-01",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "type": "Public Skating"
+    },
+    {
       "date": "2026-08-02",
       "startTime": "15:00",
       "endTime": "15:50",
@@ -534,6 +594,22 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-02",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-02",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
       "type": "Public Skating"
     },
     {
@@ -625,6 +701,14 @@
       "type": "Public Skating"
     },
     {
+      "date": "2026-08-08",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "type": "Public Skating"
+    },
+    {
       "date": "2026-08-09",
       "startTime": "15:00",
       "endTime": "15:50",
@@ -646,6 +730,22 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-09",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-09",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
       "type": "Public Skating"
     },
     {
@@ -705,12 +805,36 @@
       "type": "Public Skating"
     },
     {
+      "date": "2026-08-15",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "type": "Public Skating"
+    },
+    {
       "date": "2026-08-16",
       "startTime": "15:00",
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-16",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-16",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "type": "Public Skating"
     },
     {
       "date": "2026-08-17",
@@ -809,6 +933,14 @@
       "type": "Public Skating"
     },
     {
+      "date": "2026-08-22",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "type": "Public Skating"
+    },
+    {
       "date": "2026-08-23",
       "startTime": "15:00",
       "endTime": "15:50",
@@ -830,6 +962,22 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-23",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "type": "Family Skating"
+    },
+    {
+      "date": "2026-08-23",
+      "startTime": "17:15",
+      "endTime": "18:05",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
       "type": "Public Skating"
     },
     {
@@ -926,6 +1074,14 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "type": "Public Skating"
+    },
+    {
+      "date": "2026-08-29",
+      "startTime": "16:15",
+      "endTime": "17:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
       "type": "Public Skating"
     },
     {
