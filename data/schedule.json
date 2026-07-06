@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T21:03:37+00:00",
+  "generated_at": "2026-07-06T21:36:09+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -8,21 +8,25 @@
   "rinks": [
     {
       "name": "Sandy Hill Arena",
+      "shortName": "Sandy Hill",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "status": "ok"
     },
     {
       "name": "Jim Durrell Recreation Centre",
+      "shortName": "Jim Durrell",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "status": "ok"
     },
     {
       "name": "Fred Barrett Arena",
+      "shortName": "Fred Barrett",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "status": "ok"
     },
     {
       "name": "Tom Brown Arena",
+      "shortName": "Tom Brown",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "status": "ok"
     }
