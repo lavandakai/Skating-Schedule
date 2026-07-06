@@ -144,10 +144,10 @@ function renderDayCell(date, sessionsByDate, { muted } = {}) {
   if (iso === todayIso) classes.push("today");
   if (iso === state.selectedDate) classes.push("selected");
   return `
-    <button type="button" class="${classes.join(" ")}" data-date="${iso}">
+    <div class="${classes.join(" ")}" data-date="${iso}" role="button" tabindex="0">
       <span class="cal-daynum">${date.getDate()}</span>
       ${renderDayEvents(events)}
-    </button>
+    </div>
   `;
 }
 
@@ -259,10 +259,17 @@ function renderCalendar() {
     container.innerHTML = renderTodayView(sessionsByDate);
   } else {
     container.innerHTML = state.view === "week" ? renderWeekView(sessionsByDate) : renderMonthView(sessionsByDate);
-    container.querySelectorAll(".cal-cell[data-date]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        state.selectedDate = btn.dataset.date;
+    container.querySelectorAll(".cal-cell[data-date]").forEach((cell) => {
+      const select = () => {
+        state.selectedDate = cell.dataset.date;
         renderCalendar();
+      };
+      cell.addEventListener("click", select);
+      cell.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          select();
+        }
       });
     });
   }
