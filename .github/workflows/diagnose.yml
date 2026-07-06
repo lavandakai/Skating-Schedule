@@ -1,0 +1,20 @@
+name: Diagnose ottawa.ca block
+on:
+  workflow_dispatch: {}
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: curl verbose
+        run: |
+          curl -sS -D - -o body.html \
+            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" \
+            -H "Accept-Language: en-CA,en;q=0.9" \
+            "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena" || true
+          echo "----- BODY (first 3000 chars) -----"
+          head -c 3000 body.html || true
+          echo
+          echo "----- runner egress IP -----"
+          curl -sS https://api.ipify.org || true
