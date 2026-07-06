@@ -1,4 +1,5 @@
 const DATA_URL = "data/schedule.json";
+const RINK_FILTER_STORAGE_KEY = "skating-schedule:activeRinks";
 
 const WEEKDAY_LABELS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const MONTH_LABELS = [
@@ -70,6 +71,33 @@ function formatTimestamp(isoString) {
   return date.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
 }
 
+function loadSavedActiveRinks() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(RINK_FILTER_STORAGE_KEY));
+    return Array.isArray(saved) ? saved : null;
+  } catch (err) {
+    return null;
+  }
+}
+
+function saveActiveRinks() {
+  try {
+    localStorage.setItem(RINK_FILTER_STORAGE_KEY, JSON.stringify([...state.activeRinks]));
+  } catch (err) {
+    // localStorage unavailable (private browsing, quota, etc.) — not worth surfacing to the user
+  }
+}
+
+function updateUrlForSelection() {
+  const url = new URL(window.location.href);
+  if (state.selectedDate) {
+    url.searchParams.set("date", state.selectedDate);
+  } else {
+    url.searchParams.delete("date");
+  }
+  history.replaceState(null, "", url);
+}
+
 function escapeHtml(value) {
   return String(value)
     .replace(/&/g, "&amp;")
@@ -118,6 +146,7 @@ function renderRinkFilters() {
         state.activeRinks.add(name);
       }
       btn.classList.toggle("active");
+      saveActiveRinks();
       renderCalendar();
     });
   });
@@ -231,7 +260,32 @@ function renderDayDetail(sessionsByDate) {
   const label = new Date(`${state.selectedDate}T00:00:00`).toLocaleDateString(undefined, {
     weekday: "long", month: "long", day: "numeric",
   });
-  el.innerHTML = renderDaySessions(label, events);
+  const body = events.length
+    ? events.map(renderSessionRow).join("")
+    : `<p class="empty-state">No skating scheduled. &#10052;&#65039;</p>`;
+
+  el.innerHTML = `
+    <div class="day-detail-header">
+      <p class="today-date">${label}</p>
+      <button type="button" class="share-btn" id="share-day-btn">&#128279; Copy link</button>
+    </div>
+    ${body}
+  `;
+
+  document.getElementById("share-day-btn").addEventListener("click", async (e) => {
+    const url = new URL(window.location.href);
+    url.searchParams.set("date", state.selectedDate);
+    const btn = e.currentTarget;
+    try {
+      await navigator.clipboard.writeText(url.toString());
+      btn.textContent = "Copied!";
+    } catch (err) {
+      btn.textContent = "Couldn't copy";
+    }
+    setTimeout(() => {
+      btn.innerHTML = "&#128279; Copy link";
+    }, 1500);
+  });
 }
 
 function updateNav() {
@@ -267,6 +321,7 @@ function renderCalendar() {
     container.querySelectorAll(".cal-cell[data-date]").forEach((cell) => {
       const select = () => {
         state.selectedDate = cell.dataset.date;
+        updateUrlForSelection();
         renderCalendar();
       };
       cell.addEventListener("click", select);
@@ -295,6 +350,11 @@ async function main() {
 
   state.data = data;
   state.activeRinks = new Set(data.rinks.map((r) => r.name));
+  const savedRinks = loadSavedActiveRinks();
+  if (savedRinks) {
+    const validNames = new Set(data.rinks.map((r) => r.name));
+    state.activeRinks = new Set(savedRinks.filter((name) => validNames.has(name)));
+  }
 
   const when = formatTimestamp(data.generated_at);
   generatedAtEl.textContent = when ? `Last updated ${when}` : "";
@@ -307,12 +367,24 @@ async function main() {
   renderLegend();
   renderRinkFilters();
 
+  // A shared "?date=YYYY-MM-DD" link opens straight to that day, selected, in Month view.
+  const sharedDate = new URLSearchParams(window.location.search).get("date");
+  if (sharedDate && /^\d{4}-\d{2}-\d{2}$/.test(sharedDate)) {
+    const parsed = new Date(`${sharedDate}T00:00:00`);
+    if (!Number.isNaN(parsed.getTime())) {
+      state.view = "month";
+      state.anchor = parsed;
+      state.selectedDate = sharedDate;
+    }
+  }
+
   document.querySelectorAll(".tab").forEach((btn) => {
-    if (btn.dataset.view === "today") btn.classList.add("active");
+    btn.classList.toggle("active", btn.dataset.view === state.view);
     btn.addEventListener("click", () => {
       state.view = btn.dataset.view;
       state.anchor = new Date();
       state.selectedDate = state.view === "today" ? null : toISODate(new Date());
+      updateUrlForSelection();
       document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("active", b === btn));
       renderCalendar();
     });
@@ -321,11 +393,13 @@ async function main() {
   document.getElementById("nav-prev").addEventListener("click", () => {
     state.anchor = state.view === "week" ? addDays(state.anchor, -7) : addMonths(state.anchor, -1);
     state.selectedDate = null;
+    updateUrlForSelection();
     renderCalendar();
   });
   document.getElementById("nav-next").addEventListener("click", () => {
     state.anchor = state.view === "week" ? addDays(state.anchor, 7) : addMonths(state.anchor, 1);
     state.selectedDate = null;
+    updateUrlForSelection();
     renderCalendar();
   });
 
@@ -333,3 +407,9 @@ async function main() {
 }
 
 main();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}

@@ -343,9 +343,38 @@ main {
 }
 
 .today-date {
-  margin: 0 0 1rem;
+  margin: 0 0 0.5rem;
   font-weight: 800;
   font-size: 1.1rem;
+}
+
+.day-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.day-detail-header .today-date {
+  margin: 0 0 0.5rem;
+}
+
+.share-btn {
+  flex: 0 0 auto;
+  border: 1px solid var(--border);
+  background: var(--bg-accent);
+  color: var(--text);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.share-btn:hover {
+  background: var(--accent-soft);
 }
 
 .today-row {
