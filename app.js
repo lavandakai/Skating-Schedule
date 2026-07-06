@@ -27,30 +27,42 @@ function renderStatusNote(rink) {
   return "";
 }
 
+const DAY_ABBREV = {
+  Monday: "Mon", Tuesday: "Tue", Wednesday: "Wed", Thursday: "Thu",
+  Friday: "Fri", Saturday: "Sat", Sunday: "Sun",
+};
+
+const SESSION_CLASSES = {
+  "Public Skating": "public",
+  "Family Skating": "family",
+  "Adult Skating (18+)": "adult",
+};
+
 function renderTable(table) {
   const days = table.days && table.days.length ? table.days : [];
+
   const rows = table.sessions
     .map((session) => {
-      const cells = days
-        .map((day) => `<td>${session.days[day] ? escapeHtml(session.days[day]) : ""}</td>`)
+      const chips = days
+        .filter((day) => session.days[day])
+        .map((day) => `<span class="time-chip"><span class="day">${DAY_ABBREV[day] || day}</span>${escapeHtml(session.days[day])}</span>`)
         .join("");
-      return `<tr><th scope="row">${escapeHtml(session.name)}</th>${cells}</tr>`;
+      if (!chips) return "";
+      const pillClass = SESSION_CLASSES[session.name] || "public";
+      return `
+        <div class="session-row">
+          <span class="session-pill ${pillClass}">${escapeHtml(session.name)}</span>
+          ${chips}
+        </div>
+      `;
     })
     .join("");
-
-  const headerCells = days.map((day) => `<th scope="col">${escapeHtml(day)}</th>`).join("");
 
   const caption = table.caption
     ? `<p class="table-caption">${escapeHtml(table.caption)}</p>`
     : "";
 
-  return `
-    ${caption}
-    <table class="schedule">
-      <thead><tr><th scope="col"></th>${headerCells}</tr></thead>
-      <tbody>${rows}</tbody>
-    </table>
-  `;
+  return `<div class="schedule-block">${caption}${rows}</div>`;
 }
 
 function renderCancellations(cancellations) {

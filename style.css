@@ -1,26 +1,44 @@
 :root {
-  --bg: #f7f8fa;
+  --bg: #fdf3f8;
+  --bg-accent: #eaf6ff;
   --card-bg: #ffffff;
-  --text: #1b1f23;
-  --muted: #5c636b;
-  --border: #dfe3e8;
-  --accent: #1d6fb8;
-  --stale: #b8860b;
-  --error: #b3261e;
-  --table-header-bg: #eef3f8;
+  --text: #3a2e3f;
+  --muted: #8a7d92;
+  --border: #f0dced;
+  --accent: #ff6f9c;
+  --accent-soft: #ffe1ec;
+  --stale: #c98a1c;
+  --error: #e0567c;
+  --shadow: 0 10px 30px -12px rgba(154, 92, 130, 0.25);
+
+  --public: #4f9dde;
+  --public-bg: #e4f2fd;
+  --family: #b678e0;
+  --family-bg: #f3e6fb;
+  --adult: #2bb3a3;
+  --adult-bg: #e0f7f3;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #14171a;
-    --card-bg: #1e2226;
-    --text: #e7e9ea;
-    --muted: #9aa1a8;
-    --border: #33383e;
-    --accent: #6db3f2;
-    --stale: #e0b34d;
-    --error: #ff8983;
-    --table-header-bg: #262c33;
+    --bg: #221a25;
+    --bg-accent: #201f2b;
+    --card-bg: #2c2331;
+    --text: #f2e9f4;
+    --muted: #b3a3ba;
+    --border: #40323f;
+    --accent: #ff8fb3;
+    --accent-soft: #4a2f3d;
+    --stale: #ecc161;
+    --error: #ff8fa8;
+    --shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.45);
+
+    --public: #7cc2ff;
+    --public-bg: #253347;
+    --family: #d3a1f2;
+    --family-bg: #392b47;
+    --adult: #6bddc9;
+    --adult-bg: #1f3c39;
   }
 }
 
@@ -31,32 +49,46 @@
 body {
   margin: 0;
   padding: 0 1rem 3rem;
-  background: var(--bg);
+  background: linear-gradient(180deg, var(--bg-accent), var(--bg) 320px);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.45;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
 }
 
 header {
   max-width: 900px;
   margin: 0 auto;
-  padding: 2rem 0 1rem;
+  padding: 2.5rem 0 1rem;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
 }
 
 h1 {
-  margin: 0 0 0.25rem;
-  font-size: 1.75rem;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
 .subtitle {
-  margin: 0;
+  margin: 0.5rem 0 0;
   color: var(--muted);
+  font-weight: 600;
 }
 
 .generated-at {
-  margin: 0.5rem 0 0;
-  font-size: 0.85rem;
-  color: var(--muted);
+  display: inline-block;
+  margin: 0.75rem 0 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
 }
 
 main {
@@ -70,13 +102,15 @@ main {
 .rink-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1.25rem 1.5rem 1.5rem;
+  border-radius: 22px;
+  padding: 1.5rem 1.75rem 1.75rem;
+  box-shadow: var(--shadow);
 }
 
 .rink-card h2 {
   margin: 0 0 0.25rem;
-  font-size: 1.25rem;
+  font-size: 1.3rem;
+  font-weight: 800;
 }
 
 .rink-card h2 a {
@@ -90,6 +124,7 @@ main {
 
 .status-note {
   font-size: 0.85rem;
+  font-weight: 700;
   margin: 0 0 0.75rem;
 }
 
@@ -106,52 +141,76 @@ main {
 }
 
 .table-caption {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 700;
   color: var(--muted);
-  margin: 1rem 0 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 1.1rem 0 0.75rem;
 }
 
-table.schedule {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.9rem;
+.schedule-block + .table-caption {
+  margin-top: 1.5rem;
 }
 
-table.schedule th,
-table.schedule td {
-  border: 1px solid var(--border);
-  padding: 0.4rem 0.5rem;
-  text-align: left;
-  vertical-align: top;
+.session-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.6rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px dashed var(--border);
 }
 
-table.schedule thead th {
-  background: var(--table-header-bg);
+.session-row:last-child {
+  border-bottom: none;
+}
+
+.session-pill {
+  flex: 0 0 auto;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
   white-space: nowrap;
 }
 
-table.schedule tbody th {
-  white-space: nowrap;
+.session-pill.public { color: var(--public); background: var(--public-bg); }
+.session-pill.family { color: var(--family); background: var(--family-bg); }
+.session-pill.adult  { color: var(--adult);  background: var(--adult-bg); }
+
+.time-chip {
+  font-size: 0.85rem;
   font-weight: 600;
+  color: var(--text);
+  background: var(--bg-accent);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.25rem 0.6rem;
+  white-space: nowrap;
 }
 
-table.schedule td:empty::after {
-  content: "\2014";
-  color: var(--muted);
+.time-chip .day {
+  font-weight: 800;
+  margin-right: 0.3rem;
 }
 
 .cancellations {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
+  background: var(--accent-soft);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
 }
 
 .cancellations h3 {
-  font-size: 1rem;
-  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
+  color: var(--accent);
 }
 
 .cancellations ul {
   margin: 0;
-  padding-left: 1.25rem;
+  padding-left: 1.1rem;
 }
 
 .cancellations li {
@@ -159,17 +218,18 @@ table.schedule td:empty::after {
 }
 
 .cancellations .date {
-  font-weight: 600;
+  font-weight: 800;
 }
 
 footer {
   max-width: 900px;
-  margin: 2rem auto 0;
+  margin: 2.5rem auto 0;
   color: var(--muted);
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .empty-state {
   color: var(--muted);
   font-size: 0.9rem;
+  font-weight: 600;
 }
