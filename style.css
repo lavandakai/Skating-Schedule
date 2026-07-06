@@ -191,7 +191,7 @@ main {
 
 .legend {
   max-width: 900px;
-  margin: 0 auto 1.25rem;
+  margin: 0 auto 0.625rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
