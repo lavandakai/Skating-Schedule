@@ -6,15 +6,31 @@ jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
-      - name: curl verbose
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install playwright
         run: |
-          curl -sS -D - -o body.html \
-            -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
-            -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8" \
-            -H "Accept-Language: en-CA,en;q=0.9" \
-            "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena" || true
-          echo "----- BODY (first 3000 chars) -----"
-          head -c 3000 body.html || true
-          echo
-          echo "----- runner egress IP -----"
-          curl -sS https://api.ipify.org || true
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Try fetching with headless Chromium
+        run: |
+          python3 - <<'EOF'
+          from playwright.sync_api import sync_playwright
+
+          url = "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"
+
+          with sync_playwright() as p:
+              browser = p.chromium.launch()
+              page = browser.new_page()
+              response = page.goto(url, wait_until="networkidle", timeout=45000)
+              print("STATUS:", response.status if response else None)
+              content = page.content()
+              print("LENGTH:", len(content))
+              has_skating = "Drop-in schedule - skating" in content or "skating" in content.lower()
+              print("HAS_SKATING_TEXT:", has_skating)
+              print("SNIPPET:", content[:1500])
+              browser.close()
+          EOF
