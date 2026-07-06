@@ -118,12 +118,21 @@ function renderRinkFilters() {
   });
 }
 
-function renderDayDots(events) {
+function renderDayEvents(events) {
   if (!events.length) return "";
-  const dots = events
-    .map((s) => `<span class="dot ${SESSION_CLASSES[s.type] || "public"}"></span>`)
+  const items = events
+    .map((session) => {
+      const cls = SESSION_CLASSES[session.type] || "public";
+      return `
+        <div class="cal-event">
+          <span class="dot ${cls}"></span>
+          <span class="cal-time">${formatClock(session.startTime)}</span>
+          <span class="cal-rink">${escapeHtml(session.rinkShort || session.rink)}</span>
+        </div>
+      `;
+    })
     .join("");
-  return `<div class="cal-dots">${dots}</div>`;
+  return `<div class="cal-events">${items}</div>`;
 }
 
 function renderDayCell(date, sessionsByDate, { muted } = {}) {
@@ -137,7 +146,7 @@ function renderDayCell(date, sessionsByDate, { muted } = {}) {
   return `
     <button type="button" class="${classes.join(" ")}" data-date="${iso}">
       <span class="cal-daynum">${date.getDate()}</span>
-      ${renderDayDots(events)}
+      ${renderDayEvents(events)}
     </button>
   `;
 }

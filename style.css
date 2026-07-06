@@ -253,7 +253,7 @@ main {
   display: block;
   width: 100%;
   min-width: 0;
-  min-height: 4rem;
+  min-height: 5.5rem;
   padding: 0.4rem 0.3rem;
   border: none;
   border-right: 1px solid var(--border);
@@ -271,7 +271,7 @@ main {
 }
 
 .cal-grid.week .cal-cell {
-  min-height: 5rem;
+  min-height: 8rem;
 }
 
 .cal-cell:nth-child(7n) {
@@ -297,16 +297,38 @@ main {
   font-weight: 800;
 }
 
-.cal-dots {
+.cal-events {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.25rem;
-  margin-top: 0.3rem;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin-top: 0.25rem;
+  min-width: 0;
 }
 
-.cal-dots .dot {
-  width: 0.45rem;
-  height: 0.45rem;
+.cal-event {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  min-width: 0;
+}
+
+.cal-time {
+  flex: 0 0 auto;
+}
+
+.cal-rink {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .cal-rink {
+    display: none;
+  }
 }
 
 .today-view {
