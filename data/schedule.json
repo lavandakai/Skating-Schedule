@@ -1,0 +1,100 @@
+{
+  "generated_at": "2026-07-06T20:05:25+00:00",
+  "rinks": [
+    {
+      "name": "Sandy Hill Arena",
+      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "status": "ok",
+      "scraped_at": "2026-07-06T20:05:25+00:00",
+      "tables": [
+        {
+          "caption": "Sandy Hill Arena - skating - June 29 to August 30",
+          "days": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "sessions": [
+            {
+              "name": "Public Skating",
+              "days": {
+                "Friday": "6 - 6:50 pm"
+              }
+            },
+            {
+              "name": "Family Skating",
+              "days": {
+                "Friday": "5 - 5:50 pm",
+                "Sunday": "3 - 3:50 pm Play Free"
+              }
+            },
+            {
+              "name": "Adult Skating (18+)",
+              "days": {
+                "Monday": "4 - 4:50 pm",
+                "Tuesday": "9 - 9:50 pm"
+              }
+            }
+          ]
+        }
+      ],
+      "cancellations": [
+        {
+          "date": "May 31 to June 28",
+          "notes": [
+            "All drop-in skating, cancelled"
+          ]
+        },
+        {
+          "date": "Friday, July 3",
+          "notes": [
+            "All drop-in skating, cancelled"
+          ]
+        },
+        {
+          "date": "Sunday, July 5",
+          "notes": [
+            "All drop-in skating, cancelled"
+          ]
+        },
+        {
+          "date": "Monday, August 3",
+          "notes": [
+            "All drop-in skating, cancelled"
+          ]
+        },
+        {
+          "date": "Friday, August 14",
+          "notes": [
+            "All drop-in skating, cancelled"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jim Durrell Recreation Centre",
+      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
+      "status": "pending",
+      "tables": [],
+      "cancellations": []
+    },
+    {
+      "name": "Fred Barrett Arena",
+      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "status": "pending",
+      "tables": [],
+      "cancellations": []
+    },
+    {
+      "name": "Tom Brown Arena",
+      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
+      "status": "pending",
+      "tables": [],
+      "cancellations": []
+    }
+  ]
+}
