@@ -22,10 +22,17 @@ ROOT = Path(__file__).resolve().parent.parent
 RINKS_FILE = ROOT / "rinks.json"
 OUTPUT_FILE = ROOT / "data" / "schedule.json"
 
-USER_AGENT = (
-    "Mozilla/5.0 (compatible; SkatingScheduleBot/1.0; "
-    "+https://github.com/lavandakai/Skating-Schedule)"
-)
+REQUEST_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "image/webp,*/*;q=0.8"
+    ),
+    "Accept-Language": "en-CA,en;q=0.9",
+}
 REQUEST_TIMEOUT = 30
 MAX_ATTEMPTS = 3
 RETRY_BACKOFF_SECONDS = 5
@@ -49,13 +56,15 @@ def clean_text(text):
     return re.sub(r"\s+", " ", text.replace("\xa0", " ")).strip()
 
 
+_session = requests.Session()
+_session.headers.update(REQUEST_HEADERS)
+
+
 def fetch(url):
     last_error = None
     for attempt in range(1, MAX_ATTEMPTS + 1):
         try:
-            response = requests.get(
-                url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT
-            )
+            response = _session.get(url, timeout=REQUEST_TIMEOUT)
             response.raise_for_status()
             return response.text
         except requests.RequestException as exc:
