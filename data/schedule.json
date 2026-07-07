@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T22:26:27+00:00",
+  "generated_at": "2026-07-07T01:05:52+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -50,6 +50,7 @@
       "endTime": "16:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -58,6 +59,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -66,6 +68,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -74,6 +77,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -82,6 +86,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -90,6 +95,7 @@
       "endTime": "21:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -98,6 +104,7 @@
       "endTime": "18:50",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -106,6 +113,7 @@
       "endTime": "15:50",
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating"
     },
     {
@@ -114,6 +122,7 @@
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -122,6 +131,7 @@
       "endTime": "18:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating"
     },
     {
@@ -130,6 +140,7 @@
       "endTime": "21:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -138,6 +149,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating"
     },
     {
@@ -146,6 +158,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -154,6 +167,7 @@
       "endTime": "17:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating"
     },
     {
@@ -162,6 +176,7 @@
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -170,6 +185,7 @@
       "endTime": "16:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -178,6 +194,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -186,6 +203,7 @@
       "endTime": "16:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -194,6 +212,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -202,6 +221,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -210,6 +230,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -218,6 +239,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -226,6 +248,7 @@
       "endTime": "21:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -234,6 +257,7 @@
       "endTime": "18:50",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -242,6 +266,7 @@
       "endTime": "15:50",
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating"
     },
     {
@@ -250,6 +275,7 @@
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -258,6 +284,7 @@
       "endTime": "18:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating"
     },
     {
@@ -266,6 +293,7 @@
       "endTime": "21:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -274,6 +302,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating"
     },
     {
@@ -282,6 +311,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -290,6 +320,7 @@
       "endTime": "17:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating"
     },
     {
@@ -298,6 +329,7 @@
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -306,6 +338,7 @@
       "endTime": "16:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -314,6 +347,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -322,6 +356,7 @@
       "endTime": "16:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -330,6 +365,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -338,6 +374,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -346,6 +383,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -354,6 +392,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -362,6 +401,7 @@
       "endTime": "21:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -370,6 +410,7 @@
       "endTime": "18:50",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -378,6 +419,7 @@
       "endTime": "15:50",
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating"
     },
     {
@@ -386,6 +428,7 @@
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -394,6 +437,7 @@
       "endTime": "18:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating"
     },
     {
@@ -402,6 +446,7 @@
       "endTime": "21:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -410,6 +455,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating"
     },
     {
@@ -418,6 +464,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -426,6 +473,7 @@
       "endTime": "17:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating"
     },
     {
@@ -434,6 +482,7 @@
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -442,6 +491,7 @@
       "endTime": "16:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -450,6 +500,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -458,6 +509,7 @@
       "endTime": "17:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Family Skating"
     },
     {
@@ -466,6 +518,7 @@
       "endTime": "18:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Public Skating"
     },
     {
@@ -474,6 +527,7 @@
       "endTime": "16:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -482,6 +536,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -490,6 +545,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -498,6 +554,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -506,6 +563,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -514,6 +572,7 @@
       "endTime": "21:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -522,6 +581,7 @@
       "endTime": "18:50",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -530,6 +590,7 @@
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -538,6 +599,7 @@
       "endTime": "18:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating"
     },
     {
@@ -546,6 +608,7 @@
       "endTime": "21:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -554,6 +617,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating"
     },
     {
@@ -562,6 +626,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -570,6 +635,7 @@
       "endTime": "17:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating"
     },
     {
@@ -578,6 +644,7 @@
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -586,6 +653,7 @@
       "endTime": "16:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -594,6 +662,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -602,6 +671,7 @@
       "endTime": "17:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Family Skating"
     },
     {
@@ -610,6 +680,7 @@
       "endTime": "18:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Public Skating"
     },
     {
@@ -618,6 +689,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -626,6 +698,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -634,6 +707,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -642,6 +716,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -650,6 +725,7 @@
       "endTime": "21:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -658,6 +734,7 @@
       "endTime": "18:50",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -666,6 +743,7 @@
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -674,6 +752,7 @@
       "endTime": "18:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating"
     },
     {
@@ -682,6 +761,7 @@
       "endTime": "21:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -690,6 +770,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating"
     },
     {
@@ -698,6 +779,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -706,6 +788,7 @@
       "endTime": "17:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating"
     },
     {
@@ -714,6 +797,7 @@
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -722,6 +806,7 @@
       "endTime": "16:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -730,6 +815,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -738,6 +824,7 @@
       "endTime": "17:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Family Skating"
     },
     {
@@ -746,6 +833,7 @@
       "endTime": "18:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Public Skating"
     },
     {
@@ -754,6 +842,7 @@
       "endTime": "16:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -762,6 +851,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -770,6 +860,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -778,6 +869,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -786,6 +878,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -794,6 +887,7 @@
       "endTime": "21:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -802,6 +896,7 @@
       "endTime": "18:50",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -810,6 +905,7 @@
       "endTime": "17:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating"
     },
     {
@@ -818,6 +914,7 @@
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -826,6 +923,7 @@
       "endTime": "17:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Family Skating"
     },
     {
@@ -834,6 +932,7 @@
       "endTime": "18:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Public Skating"
     },
     {
@@ -842,6 +941,7 @@
       "endTime": "16:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -850,6 +950,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -858,6 +959,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -866,6 +968,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -874,6 +977,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -882,6 +986,7 @@
       "endTime": "21:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -890,6 +995,7 @@
       "endTime": "18:50",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -898,6 +1004,7 @@
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -906,6 +1013,7 @@
       "endTime": "18:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating"
     },
     {
@@ -914,6 +1022,7 @@
       "endTime": "21:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -922,6 +1031,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating"
     },
     {
@@ -930,6 +1040,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -938,6 +1049,7 @@
       "endTime": "17:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating"
     },
     {
@@ -946,6 +1058,7 @@
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -954,6 +1067,7 @@
       "endTime": "16:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -962,6 +1076,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -970,6 +1085,7 @@
       "endTime": "17:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Family Skating"
     },
     {
@@ -978,6 +1094,7 @@
       "endTime": "18:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Public Skating"
     },
     {
@@ -986,6 +1103,7 @@
       "endTime": "16:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -994,6 +1112,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -1002,6 +1121,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -1010,6 +1130,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -1018,6 +1139,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -1026,6 +1148,7 @@
       "endTime": "21:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Adult Skating (18+)"
     },
     {
@@ -1034,6 +1157,7 @@
       "endTime": "18:50",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -1042,6 +1166,7 @@
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -1050,6 +1175,7 @@
       "endTime": "18:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating"
     },
     {
@@ -1058,6 +1184,7 @@
       "endTime": "21:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -1066,6 +1193,7 @@
       "endTime": "16:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating"
     },
     {
@@ -1074,6 +1202,7 @@
       "endTime": "17:05",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating"
     },
     {
@@ -1082,6 +1211,7 @@
       "endTime": "17:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating"
     },
     {
@@ -1090,6 +1220,7 @@
       "endTime": "15:50",
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating"
     },
     {
@@ -1098,6 +1229,7 @@
       "endTime": "16:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -1106,6 +1238,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     },
     {
@@ -1114,6 +1247,7 @@
       "endTime": "17:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Family Skating"
     },
     {
@@ -1122,6 +1256,7 @@
       "endTime": "18:05",
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating"
     }
   ]
