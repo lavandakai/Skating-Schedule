@@ -442,11 +442,8 @@ main {
 
 .reservation-note {
   color: var(--stale);
+  font-size: 0.8rem;
   font-weight: 700;
-}
-
-.reservation-note::before {
-  content: " · ";
 }
 
 .day-detail {

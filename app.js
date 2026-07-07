@@ -279,7 +279,8 @@ function renderSessionRow(session) {
         <span class="dot ${SESSION_CLASSES[session.type] || "public"}"></span>
         ${formatClock(session.startTime)}&ndash;${formatClock(session.endTime)}
       </span>
-      <span class="today-meta"><strong>${escapeHtml(session.rinkShort || session.rink)}</strong> &middot; ${escapeHtml(session.type)}${reservationNote}</span>
+      <span class="today-meta"><strong>${escapeHtml(session.rinkShort || session.rink)}</strong> &middot; ${escapeHtml(session.type)}</span>
+      ${reservationNote}
     </a>
   `;
 }
