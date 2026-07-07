@@ -230,6 +230,7 @@ def build_rink_sessions(rink, activities, html_by_id, today):
                         "endTime": end_time,
                         "rink": rink["name"],
                         "rinkShort": rink.get("shortName", rink["name"]),
+                        "rinkUrl": rink["url"],
                         "type": SESSION_NAMES[activity["name"]],
                     })
             cursor += timedelta(days=1)
