@@ -158,16 +158,6 @@ main {
   background: var(--accent-soft);
 }
 
-@media (max-width: 640px) {
-  .rink-filters {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 18px;
-    box-shadow: var(--shadow);
-    padding: 0.5rem;
-  }
-}
-
 .nav-row {
   max-width: 900px;
   margin: 0 auto 0.75rem;
@@ -460,6 +450,10 @@ footer {
   margin: 2.5rem auto 0;
   color: var(--muted);
   font-size: 0.8rem;
+}
+
+footer a {
+  color: inherit;
 }
 
 .empty-state {
