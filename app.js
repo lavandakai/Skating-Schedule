@@ -1,5 +1,6 @@
 const DATA_URL = "data/schedule.json";
 const RINK_FILTER_STORAGE_KEY = "skating-schedule:activeRinks";
+const TYPE_FILTER_STORAGE_KEY = "skating-schedule:activeTypes";
 
 const WEEKDAY_LABELS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const MONTH_LABELS = [
@@ -91,6 +92,23 @@ function saveActiveRinks() {
   }
 }
 
+function loadSavedActiveTypes() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(TYPE_FILTER_STORAGE_KEY));
+    return Array.isArray(saved) ? saved : null;
+  } catch (err) {
+    return null;
+  }
+}
+
+function saveActiveTypes() {
+  try {
+    localStorage.setItem(TYPE_FILTER_STORAGE_KEY, JSON.stringify([...state.activeTypes]));
+  } catch (err) {
+    // localStorage unavailable (private browsing, quota, etc.) — not worth surfacing to the user
+  }
+}
+
 function updateUrlForSelection() {
   const url = new URL(window.location.href);
   if (state.selectedDate) {
@@ -154,6 +172,7 @@ function renderLegend() {
         state.activeTypes.add(name);
       }
       btn.classList.toggle("inactive");
+      saveActiveTypes();
       renderCalendar();
     });
   });
@@ -394,6 +413,12 @@ async function main() {
   if (savedRinks) {
     const validNames = new Set(data.rinks.map((r) => r.name));
     state.activeRinks = new Set(savedRinks.filter((name) => validNames.has(name)));
+  }
+
+  const savedTypes = loadSavedActiveTypes();
+  if (savedTypes) {
+    const validTypes = new Set(Object.keys(SESSION_CLASSES));
+    state.activeTypes = new Set(savedTypes.filter((name) => validTypes.has(name)));
   }
 
   const when = formatTimestamp(data.generated_at);
