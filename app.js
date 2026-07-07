@@ -20,6 +20,7 @@ const LEGEND_LABELS = {
 const state = {
   data: null,
   activeRinks: new Set(),
+  activeTypes: new Set(Object.keys(SESSION_CLASSES)),
   view: "today",
   anchor: new Date(),
   selectedDate: null,
@@ -105,10 +106,11 @@ function escapeHtml(value) {
     .replace(/>/g, "&gt;");
 }
 
-function groupSessionsByDate(sessions, activeRinks) {
+function groupSessionsByDate(sessions, activeRinks, activeTypes) {
   const map = new Map();
   for (const session of sessions) {
     if (!activeRinks.has(session.rink)) continue;
+    if (!activeTypes.has(session.type)) continue;
     if (!map.has(session.date)) map.set(session.date, []);
     map.get(session.date).push(session);
   }
@@ -118,11 +120,41 @@ function groupSessionsByDate(sessions, activeRinks) {
   return map;
 }
 
+function renderAttribution(strings) {
+  return strings
+    .map((text) => {
+      if (text.includes("github.com/ottrec/scraper")) {
+        return `Compiled data &copy; Patrick Gaskin's <a href="https://github.com/ottrec/scraper" target="_blank" rel="noopener">ottrec/scraper (GitHub)</a>.`;
+      }
+      if (text.includes("ottawa.ca/en/recreation-and-parks/facilities/place-listing")) {
+        return `Facility information and schedules &copy; <a href="https://ottawa.ca/en/recreation-and-parks/facilities/place-listing" target="_blank" rel="noopener">City of Ottawa &ndash; Recreation Facilities</a>.`;
+      }
+      return escapeHtml(text);
+    })
+    .join(" ");
+}
+
 function renderLegend() {
   const el = document.getElementById("legend");
   el.innerHTML = Object.entries(SESSION_CLASSES)
-    .map(([name, cls]) => `<span class="legend-item"><span class="dot ${cls}"></span>${escapeHtml(LEGEND_LABELS[name] || name)}</span>`)
+    .map(([name, cls]) => {
+      const active = state.activeTypes.has(name);
+      return `<button type="button" class="legend-item${active ? "" : " inactive"}" data-type="${escapeHtml(name)}"><span class="dot ${cls}"></span>${escapeHtml(LEGEND_LABELS[name] || name)}</button>`;
+    })
     .join("");
+
+  el.querySelectorAll(".legend-item").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const name = btn.dataset.type;
+      if (state.activeTypes.has(name)) {
+        state.activeTypes.delete(name);
+      } else {
+        state.activeTypes.add(name);
+      }
+      btn.classList.toggle("inactive");
+      renderCalendar();
+    });
+  });
 }
 
 function renderRinkFilters() {
@@ -218,19 +250,19 @@ function renderMonthView(sessionsByDate) {
 
 function renderSessionRow(session) {
   return `
-    <div class="today-row">
+    <a class="today-row" href="${escapeHtml(session.rinkUrl || "#")}" target="_blank" rel="noopener">
       <span class="today-time">
         <span class="dot ${SESSION_CLASSES[session.type] || "public"}"></span>
         ${formatClock(session.startTime)}&ndash;${formatClock(session.endTime)}
       </span>
       <span class="today-meta"><strong>${escapeHtml(session.rinkShort || session.rink)}</strong> &middot; ${escapeHtml(session.type)}</span>
-    </div>
+    </a>
   `;
 }
 
 function renderDaySessions(label, events) {
   if (!events.length) {
-    return `<p class="today-date">${label}</p><p class="empty-state">No skating scheduled. &#10052;&#65039;</p>`;
+    return `<p class="today-date">${label}</p><p class="empty-state">No skating scheduled &#128035;</p>`;
   }
   return `<p class="today-date">${label}</p>${events.map(renderSessionRow).join("")}`;
 }
@@ -262,30 +294,36 @@ function renderDayDetail(sessionsByDate) {
   });
   const body = events.length
     ? events.map(renderSessionRow).join("")
-    : `<p class="empty-state">No skating scheduled. &#10052;&#65039;</p>`;
+    : `<p class="empty-state">No skating scheduled &#128035;</p>`;
+  const shareButton = events.length
+    ? `<button type="button" class="share-btn" id="share-day-btn">&#128279; Copy link</button>`
+    : "";
 
   el.innerHTML = `
     <div class="day-detail-header">
       <p class="today-date">${label}</p>
-      <button type="button" class="share-btn" id="share-day-btn">&#128279; Copy link</button>
+      ${shareButton}
     </div>
     ${body}
   `;
 
-  document.getElementById("share-day-btn").addEventListener("click", async (e) => {
-    const url = new URL(window.location.href);
-    url.searchParams.set("date", state.selectedDate);
-    const btn = e.currentTarget;
-    try {
-      await navigator.clipboard.writeText(url.toString());
-      btn.textContent = "Copied!";
-    } catch (err) {
-      btn.textContent = "Couldn't copy";
-    }
-    setTimeout(() => {
-      btn.innerHTML = "&#128279; Copy link";
-    }, 1500);
-  });
+  const shareBtn = document.getElementById("share-day-btn");
+  if (shareBtn) {
+    shareBtn.addEventListener("click", async (e) => {
+      const url = new URL(window.location.href);
+      url.searchParams.set("date", state.selectedDate);
+      const btn = e.currentTarget;
+      try {
+        await navigator.clipboard.writeText(url.toString());
+        btn.textContent = "Copied!";
+      } catch (err) {
+        btn.textContent = "Couldn't copy";
+      }
+      setTimeout(() => {
+        btn.innerHTML = "&#128279; Copy link";
+      }, 1500);
+    });
+  }
 }
 
 function updateNav() {
@@ -313,7 +351,7 @@ function updateNav() {
 function renderCalendar() {
   updateNav();
   const container = document.getElementById("calendar");
-  const sessionsByDate = groupSessionsByDate(state.data.sessions, state.activeRinks);
+  const sessionsByDate = groupSessionsByDate(state.data.sessions, state.activeRinks, state.activeTypes);
   if (state.view === "today") {
     container.innerHTML = renderTodayView(sessionsByDate);
   } else {
@@ -361,7 +399,7 @@ async function main() {
 
   const attributionEl = document.getElementById("attribution");
   if (data.attribution && data.attribution.length) {
-    attributionEl.textContent = data.attribution.join(" ");
+    attributionEl.innerHTML = renderAttribution(data.attribution);
   }
 
   renderLegend();
