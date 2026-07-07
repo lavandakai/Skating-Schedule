@@ -17,6 +17,8 @@
   --family-bg: #f3e6fb;
   --adult: #2bb3a3;
   --adult-bg: #e0f7f3;
+  --figure: #dba02c;
+  --figure-bg: #fbf0dc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +41,8 @@
     --family-bg: #392b47;
     --adult: #6bddc9;
     --adult-bg: #1f3c39;
+    --figure: #f2c766;
+    --figure-bg: #3d3320;
   }
 }
 
@@ -232,6 +236,7 @@ main {
 .dot.public { background: var(--public); }
 .dot.family { background: var(--family); }
 .dot.adult  { background: var(--adult); }
+.dot.figure { background: var(--figure); }
 
 .cal-grid {
   background: var(--card-bg);

@@ -44,19 +44,38 @@ def test_sandy_hill_sessions_exclude_cancelled_dates():
     today = date(2026, 6, 29)
     sessions = build_rink_sessions(rink, activities, html_by_id, today)
 
-    # exceptionsHtmlId 51 (skating group) cancels May 31-June 28 and Friday July 3;
-    # figure skate's ice-sports group (id 52) cancellation must not leak in since
-    # figure skate isn't one of our tracked session types anyway.
-    assert all(s["date"] != "2026-07-03" for s in sessions)
-    assert all(not ("2026-05-31" <= s["date"] <= "2026-06-28") for s in sessions)
+    # exceptionsHtmlId 51 (skating group) cancels May 31-June 28 and Friday July 3
+    non_figure = [s for s in sessions if s["type"] != "Figure Skating"]
+    assert all(s["date"] != "2026-07-03" for s in non_figure)
+    assert all(not ("2026-05-31" <= s["date"] <= "2026-06-28") for s in non_figure)
 
     # the first Friday public skate after the cancellation window should still appear
     assert any(
         s["date"] == "2026-07-10" and s["type"] == "Public Skating" and s["startTime"] == "18:00"
         for s in sessions
     )
-    assert all(s["type"] != "Figure Skating" for s in sessions)
     print("test_sandy_hill_sessions_exclude_cancelled_dates OK")
+
+
+def test_figure_skate_uses_its_own_cancellation_group():
+    activities, html_by_id = load_fixture()
+    rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
+    today = date(2026, 6, 29)
+    sessions = build_rink_sessions(rink, activities, html_by_id, today)
+
+    # figure skate (exceptionsHtmlId 52, "ice sports" group) runs Mondays and is
+    # unaffected by the skating group's (id 51) May 31-June 28 cancellation
+    figure_sessions = [s for s in sessions if s["type"] == "Figure Skating"]
+    assert any(s["date"] == "2026-06-29" for s in figure_sessions)
+    assert not any("2026-05-31" <= s["date"] <= "2026-06-28" for s in figure_sessions)
+
+    # the skating group's cancellations must not leak into figure skate, and
+    # figure skate's own "Sunday, July 5" cancellation (id 52) must not leak
+    # into the family skate session that also runs on Sundays (id 51)
+    assert any(
+        s["date"] == "2026-07-05" and s["type"] == "Family Skating" for s in sessions
+    )
+    print("test_figure_skate_uses_its_own_cancellation_group OK")
 
 
 def test_sessions_never_precede_today():
@@ -85,5 +104,6 @@ if __name__ == "__main__":
     test_parse_cancellation_dates_range()
     test_parse_cancellation_dates_unparseable_returns_empty()
     test_sandy_hill_sessions_exclude_cancelled_dates()
+    test_figure_skate_uses_its_own_cancellation_group()
     test_sessions_never_precede_today()
     test_unknown_rink_raises()

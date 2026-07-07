@@ -44,6 +44,7 @@ SESSION_NAMES = {
     "public skate": "Public Skating",
     "family skate": "Family Skating",
     "adult skate 18+": "Adult Skating (18+)",
+    "figure skate": "Figure Skating",
 }
 
 DAY_NAMES = [
@@ -195,21 +196,21 @@ def build_rink_sessions(rink, activities, html_by_id, today):
     if not matches:
         raise ScrapeError("No matching skating sessions found in the dataset")
 
-    excluded_ranges = []
-    seen_exception_ids = set()
+    excluded_ranges_by_group = {}
     for activity in matches:
         eid = activity.get("exceptionsHtmlId")
-        if not eid or eid in seen_exception_ids:
+        if not eid or eid in excluded_ranges_by_group:
             continue
-        seen_exception_ids.add(eid)
         group_start = _parse_iso_date(activity.get("startDate"))
         group_end = _parse_iso_date(activity.get("endDate"))
         if not group_start or not group_end:
             continue
+        ranges = []
         for entry in parse_cancellation_fragment(html_by_id.get(eid)):
-            excluded_ranges.extend(
+            ranges.extend(
                 parse_cancellation_dates(entry.get("date"), group_start, group_end)
             )
+        excluded_ranges_by_group[eid] = ranges
 
     sessions = []
     for activity in matches:
@@ -220,6 +221,7 @@ def build_rink_sessions(rink, activities, html_by_id, today):
         if not (start and end and weekday in DAY_NAMES and start_time and end_time):
             continue
 
+        excluded_ranges = excluded_ranges_by_group.get(activity.get("exceptionsHtmlId"), [])
         cursor = max(start, today)
         while cursor <= end:
             if DAY_NAMES[cursor.weekday()] == weekday:

@@ -10,11 +10,13 @@ const SESSION_CLASSES = {
   "Public Skating": "public",
   "Family Skating": "family",
   "Adult Skating (18+)": "adult",
+  "Figure Skating": "figure",
 };
 const LEGEND_LABELS = {
   "Public Skating": "Public",
   "Family Skating": "Family",
   "Adult Skating (18+)": "Adult (18+)",
+  "Figure Skating": "Figure",
 };
 
 const state = {
