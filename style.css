@@ -164,7 +164,7 @@ main {
 
 .nav-row {
   max-width: 900px;
-  margin: 0 auto 0.75rem;
+  margin: 0 auto 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,7 +195,7 @@ main {
 
 .legend {
   max-width: 900px;
-  margin: 0 auto 0.625rem;
+  margin: 0 auto 0.9rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
