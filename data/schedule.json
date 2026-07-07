@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T01:14:00+00:00",
+  "generated_at": "2026-07-07T01:58:53+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -51,7 +51,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-06",
@@ -60,7 +61,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-06",
@@ -69,7 +71,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-06",
@@ -78,7 +81,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-07",
@@ -87,7 +91,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-07",
@@ -96,7 +101,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-07",
@@ -105,7 +111,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-07",
@@ -114,7 +121,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-08",
@@ -123,7 +131,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-09",
@@ -132,7 +141,8 @@
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-10",
@@ -141,7 +151,8 @@
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-10",
@@ -150,7 +161,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-10",
@@ -159,7 +171,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-10",
@@ -168,7 +181,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-11",
@@ -177,7 +191,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-11",
@@ -186,7 +201,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-11",
@@ -195,7 +211,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-11",
@@ -204,7 +221,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-12",
@@ -213,7 +231,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-12",
@@ -222,7 +241,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-12",
@@ -231,7 +251,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-13",
@@ -240,7 +261,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-13",
@@ -249,7 +271,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-13",
@@ -258,7 +281,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-13",
@@ -267,7 +291,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-14",
@@ -276,7 +301,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-14",
@@ -285,7 +311,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-14",
@@ -294,7 +321,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-14",
@@ -303,7 +331,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-15",
@@ -312,7 +341,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-16",
@@ -321,7 +351,8 @@
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-17",
@@ -330,7 +361,8 @@
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-17",
@@ -339,7 +371,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-17",
@@ -348,7 +381,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-17",
@@ -357,7 +391,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-18",
@@ -366,7 +401,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-18",
@@ -375,7 +411,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-18",
@@ -384,7 +421,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-18",
@@ -393,7 +431,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-19",
@@ -402,7 +441,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-19",
@@ -411,7 +451,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-19",
@@ -420,7 +461,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-20",
@@ -429,7 +471,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-20",
@@ -438,7 +481,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-20",
@@ -447,7 +491,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-20",
@@ -456,7 +501,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-21",
@@ -465,7 +511,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-21",
@@ -474,7 +521,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-21",
@@ -483,7 +531,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-21",
@@ -492,7 +541,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-22",
@@ -501,7 +551,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-23",
@@ -510,7 +561,8 @@
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-24",
@@ -519,7 +571,8 @@
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-24",
@@ -528,7 +581,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-24",
@@ -537,7 +591,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-24",
@@ -546,7 +601,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-25",
@@ -555,7 +611,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-25",
@@ -564,7 +621,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-25",
@@ -573,7 +631,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-25",
@@ -582,7 +641,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-26",
@@ -591,7 +651,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-26",
@@ -600,7 +661,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-26",
@@ -609,7 +671,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-26",
@@ -618,7 +681,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-26",
@@ -627,7 +691,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-27",
@@ -636,7 +701,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-27",
@@ -645,7 +711,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-27",
@@ -654,7 +721,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-27",
@@ -663,7 +731,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-28",
@@ -672,7 +741,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-28",
@@ -681,7 +751,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-28",
@@ -690,7 +761,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-28",
@@ -699,7 +771,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-29",
@@ -708,7 +781,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-30",
@@ -717,7 +791,8 @@
       "rink": "Tom Brown Arena",
       "rinkShort": "Tom Brown",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-07-31",
@@ -726,7 +801,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-31",
@@ -735,7 +811,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-07-31",
@@ -744,7 +821,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-01",
@@ -753,7 +831,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-01",
@@ -762,7 +841,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-01",
@@ -771,7 +851,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-01",
@@ -780,7 +861,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-02",
@@ -789,7 +871,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-02",
@@ -798,7 +881,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-02",
@@ -807,7 +891,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-02",
@@ -816,7 +901,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-02",
@@ -825,7 +911,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-03",
@@ -834,7 +921,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-03",
@@ -843,7 +931,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-04",
@@ -852,7 +941,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-04",
@@ -861,7 +951,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-04",
@@ -870,7 +961,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-04",
@@ -879,7 +971,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-05",
@@ -888,7 +981,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-07",
@@ -897,7 +991,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-07",
@@ -906,7 +1001,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-07",
@@ -915,7 +1011,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-08",
@@ -924,7 +1021,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-08",
@@ -933,7 +1031,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-08",
@@ -942,7 +1041,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-08",
@@ -951,7 +1051,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-09",
@@ -960,7 +1061,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-09",
@@ -969,7 +1071,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-09",
@@ -978,7 +1081,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-09",
@@ -987,7 +1091,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-09",
@@ -996,7 +1101,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-10",
@@ -1005,7 +1111,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-10",
@@ -1014,7 +1121,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-10",
@@ -1023,7 +1131,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-10",
@@ -1032,7 +1141,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-11",
@@ -1041,7 +1151,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-11",
@@ -1050,7 +1161,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-11",
@@ -1059,7 +1171,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-11",
@@ -1068,7 +1181,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-12",
@@ -1077,7 +1191,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-15",
@@ -1086,7 +1201,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-15",
@@ -1095,7 +1211,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-16",
@@ -1104,7 +1221,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-16",
@@ -1113,7 +1231,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-16",
@@ -1122,7 +1241,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-17",
@@ -1131,7 +1251,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-17",
@@ -1140,7 +1261,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-17",
@@ -1149,7 +1271,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-17",
@@ -1158,7 +1281,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-18",
@@ -1167,7 +1291,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-18",
@@ -1176,7 +1301,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-18",
@@ -1185,7 +1311,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-18",
@@ -1194,7 +1321,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-19",
@@ -1203,7 +1331,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-21",
@@ -1212,7 +1341,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-21",
@@ -1221,7 +1351,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-21",
@@ -1230,7 +1361,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-22",
@@ -1239,7 +1371,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-22",
@@ -1248,7 +1381,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-22",
@@ -1257,7 +1391,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-22",
@@ -1266,7 +1401,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-23",
@@ -1275,7 +1411,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-23",
@@ -1284,7 +1421,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-23",
@@ -1293,7 +1431,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-23",
@@ -1302,7 +1441,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-23",
@@ -1311,7 +1451,8 @@
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-24",
@@ -1320,7 +1461,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-24",
@@ -1329,7 +1471,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-24",
@@ -1338,7 +1481,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-24",
@@ -1347,7 +1491,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-25",
@@ -1356,7 +1501,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-25",
@@ -1365,7 +1511,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-25",
@@ -1374,7 +1521,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-25",
@@ -1383,7 +1531,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)"
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-26",
@@ -1392,7 +1541,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-28",
@@ -1401,7 +1551,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-28",
@@ -1410,7 +1561,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-28",
@@ -1419,7 +1571,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-29",
@@ -1428,7 +1581,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-29",
@@ -1437,7 +1591,8 @@
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-29",
@@ -1446,7 +1601,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-29",
@@ -1455,7 +1611,8 @@
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating"
+      "type": "Figure Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-30",
@@ -1464,7 +1621,8 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-30",
@@ -1473,7 +1631,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-30",
@@ -1482,7 +1641,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-31",
@@ -1491,7 +1651,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating"
+      "type": "Family Skating",
+      "reservationRequired": false
     },
     {
       "date": "2026-08-31",
@@ -1500,7 +1661,8 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating"
+      "type": "Public Skating",
+      "reservationRequired": false
     }
   ]
 }
