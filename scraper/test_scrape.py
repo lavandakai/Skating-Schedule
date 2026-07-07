@@ -78,6 +78,16 @@ def test_figure_skate_uses_its_own_cancellation_group():
     print("test_figure_skate_uses_its_own_cancellation_group OK")
 
 
+def test_reservation_required_is_propagated_per_session():
+    activities, html_by_id = load_fixture()
+    rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
+    sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
+
+    assert all(s["reservationRequired"] for s in sessions if s["type"] == "Figure Skating")
+    assert not any(s["reservationRequired"] for s in sessions if s["type"] != "Figure Skating")
+    print("test_reservation_required_is_propagated_per_session OK")
+
+
 def test_sessions_never_precede_today():
     activities, html_by_id = load_fixture()
     rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
@@ -105,5 +115,6 @@ if __name__ == "__main__":
     test_parse_cancellation_dates_unparseable_returns_empty()
     test_sandy_hill_sessions_exclude_cancelled_dates()
     test_figure_skate_uses_its_own_cancellation_group()
+    test_reservation_required_is_propagated_per_session()
     test_sessions_never_precede_today()
     test_unknown_rink_raises()

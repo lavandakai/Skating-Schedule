@@ -234,6 +234,7 @@ def build_rink_sessions(rink, activities, html_by_id, today):
                         "rinkShort": rink.get("shortName", rink["name"]),
                         "rinkUrl": rink["url"],
                         "type": SESSION_NAMES[activity["name"]],
+                        "reservationRequired": bool(activity.get("reservationRequired")),
                     })
             cursor += timedelta(days=1)
 

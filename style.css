@@ -162,6 +162,16 @@ main {
   background: var(--accent-soft);
 }
 
+.filter-hint {
+  max-width: 900px;
+  margin: -0.4rem auto 0.9rem;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+  opacity: 0.75;
+}
+
 .nav-row {
   max-width: 900px;
   margin: 0 auto 0.5rem;
@@ -428,6 +438,15 @@ main {
 .today-meta strong {
   color: var(--text);
   font-weight: 700;
+}
+
+.reservation-note {
+  color: var(--stale);
+  font-weight: 700;
+}
+
+.reservation-note::before {
+  content: " · ";
 }
 
 .day-detail {

@@ -270,13 +270,16 @@ function renderMonthView(sessionsByDate) {
 }
 
 function renderSessionRow(session) {
+  const reservationNote = session.reservationRequired
+    ? `<span class="reservation-note">Reservation required</span>`
+    : "";
   return `
     <a class="today-row" href="${escapeHtml(session.rinkUrl || "#")}" target="_blank" rel="noopener">
       <span class="today-time">
         <span class="dot ${SESSION_CLASSES[session.type] || "public"}"></span>
         ${formatClock(session.startTime)}&ndash;${formatClock(session.endTime)}
       </span>
-      <span class="today-meta"><strong>${escapeHtml(session.rinkShort || session.rink)}</strong> &middot; ${escapeHtml(session.type)}</span>
+      <span class="today-meta"><strong>${escapeHtml(session.rinkShort || session.rink)}</strong> &middot; ${escapeHtml(session.type)}${reservationNote}</span>
     </a>
   `;
 }
