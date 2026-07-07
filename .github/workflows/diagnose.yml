@@ -1,0 +1,13 @@
+name: Diagnose ottawa.ca iframe headers
+on:
+  workflow_dispatch: {}
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check X-Frame-Options / CSP frame-ancestors
+        run: |
+          curl -sS -D - -o /dev/null -A "Mozilla/5.0" \
+            "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena" \
+            | grep -iE "x-frame-options|content-security-policy|^HTTP" || echo "no relevant headers found"
