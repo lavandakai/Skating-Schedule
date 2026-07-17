@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T13:10:21+00:00",
+  "generated_at": "2026-07-17T13:03:10+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -44,26 +44,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-07-15",
-      "startTime": "18:00",
-      "endTime": "18:50",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-07-16",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
     {
       "date": "2026-07-17",
       "startTime": "15:00",
