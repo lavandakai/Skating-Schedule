@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:23:06+00:00",
+  "generated_at": "2026-07-25T12:59:38+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -44,56 +44,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-07-23",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-07-24",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-07-24",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-07-24",
-      "startTime": "18:00",
-      "endTime": "18:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-07-24",
-      "startTime": "20:15",
-      "endTime": "21:05",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
     {
       "date": "2026-07-25",
       "startTime": "15:15",
