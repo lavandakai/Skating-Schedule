@@ -51,6 +51,18 @@ DAY_NAMES = [
     "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday",
 ]
 
+# Cancellations confirmed to have happened but not reflected as an exceptions
+# notice anywhere in the upstream dataset for that session's own schedule
+# group (e.g. a rink's "ice sports"/figure-skate table has no cancellation
+# text of its own even when its "skating" table does), so they can't be
+# caught by parsing. Keyed by (rink URL, session type) to a set of dates.
+MANUAL_CANCELLATIONS = {
+    (
+        "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+        "Figure Skating",
+    ): {date(2026, 8, 3)},  # Civic Holiday
+}
+
 MONTHS = {
     "jan": 1, "january": 1, "feb": 2, "february": 2, "mar": 3, "march": 3,
     "apr": 4, "april": 4, "may": 5, "jun": 6, "june": 6, "jul": 7, "july": 7,
@@ -58,10 +70,14 @@ MONTHS = {
     "october": 10, "nov": 11, "november": 11, "dec": 12, "december": 12,
 }
 
+# Cancellation notices can carry multiple comma-separated labels before the
+# actual date, e.g. "Civic Holiday, Monday, August 3" (not just a single
+# "Weekday, " prefix), so the label group matches zero or more of them.
+_LABEL_PREFIX = r"(?:[A-Za-z]+(?:\s+[A-Za-z]+)*,\s*)*"
 CANCELLATION_RANGE_RE = re.compile(
-    r"^(?:\w+,\s*)?([A-Za-z]+)\s+(\d{1,2})\s+to\s+(?:\w+,\s*)?([A-Za-z]+)\s+(\d{1,2})$"
+    rf"^{_LABEL_PREFIX}([A-Za-z]+)\s+(\d{{1,2}})\s+to\s+{_LABEL_PREFIX}([A-Za-z]+)\s+(\d{{1,2}})$"
 )
-CANCELLATION_SINGLE_RE = re.compile(r"^(?:\w+,\s*)?([A-Za-z]+)\s+(\d{1,2})$")
+CANCELLATION_SINGLE_RE = re.compile(rf"^{_LABEL_PREFIX}([A-Za-z]+)\s+(\d{{1,2}})$")
 
 try:
     from zoneinfo import ZoneInfo
@@ -199,7 +215,7 @@ def build_rink_sessions(rink, activities, html_by_id, today):
     excluded_ranges_by_group = {}
     for activity in matches:
         eid = activity.get("exceptionsHtmlId")
-        if not eid or eid in excluded_ranges_by_group:
+        if eid is None or eid in excluded_ranges_by_group:
             continue
         group_start = _parse_iso_date(activity.get("startDate"))
         group_end = _parse_iso_date(activity.get("endDate"))
@@ -221,11 +237,14 @@ def build_rink_sessions(rink, activities, html_by_id, today):
         if not (start and end and weekday in DAY_NAMES and start_time and end_time):
             continue
 
+        session_type = SESSION_NAMES[activity["name"]]
         excluded_ranges = excluded_ranges_by_group.get(activity.get("exceptionsHtmlId"), [])
+        manual_excluded_dates = MANUAL_CANCELLATIONS.get((rink["url"], session_type), set())
         cursor = max(start, today)
         while cursor <= end:
             if DAY_NAMES[cursor.weekday()] == weekday:
-                if not any(r_start <= cursor <= r_end for r_start, r_end in excluded_ranges):
+                excluded = any(r_start <= cursor <= r_end for r_start, r_end in excluded_ranges)
+                if not excluded and cursor not in manual_excluded_dates:
                     sessions.append({
                         "date": cursor.isoformat(),
                         "startTime": start_time,
@@ -233,7 +252,7 @@ def build_rink_sessions(rink, activities, html_by_id, today):
                         "rink": rink["name"],
                         "rinkShort": rink.get("shortName", rink["name"]),
                         "rinkUrl": rink["url"],
-                        "type": SESSION_NAMES[activity["name"]],
+                        "type": session_type,
                         "reservationRequired": bool(activity.get("reservationRequired")),
                     })
             cursor += timedelta(days=1)

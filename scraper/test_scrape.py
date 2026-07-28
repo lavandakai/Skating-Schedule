@@ -38,6 +38,15 @@ def test_parse_cancellation_dates_unparseable_returns_empty():
     print("test_parse_cancellation_dates_unparseable_returns_empty OK")
 
 
+def test_parse_cancellation_dates_multi_label_prefix():
+    # real-world text has more than one comma-separated label before the
+    # date, e.g. "Civic Holiday, Monday, August 3" -- not just "Weekday, "
+    ref_start, ref_end = date(2026, 6, 29), date(2026, 8, 30)
+    result = parse_cancellation_dates("Civic Holiday, Monday, August 3", ref_start, ref_end)
+    assert result == [(date(2026, 8, 3), date(2026, 8, 3))]
+    print("test_parse_cancellation_dates_multi_label_prefix OK")
+
+
 def test_sandy_hill_sessions_exclude_cancelled_dates():
     activities, html_by_id = load_fixture()
     rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
@@ -88,6 +97,46 @@ def test_reservation_required_is_propagated_per_session():
     print("test_reservation_required_is_propagated_per_session OK")
 
 
+def test_exceptions_html_id_zero_is_not_treated_as_missing():
+    # exceptionsHtmlId is a real, valid id -- 0 is falsy in Python, so a
+    # naive `if not eid` check would wrongly treat this group as absent and
+    # skip its cancellation notice entirely
+    activities = [{
+        "facilityUrl": "https://example.com/test-arena",
+        "startDate": "2026-06-29",
+        "endDate": "2026-08-30",
+        "weekday": "monday",
+        "startTime": "17:00",
+        "endTime": "17:50",
+        "name": "public skate",
+        "exceptionsHtmlId": 0,
+    }]
+    html_by_id = {
+        0: "<ul><li><strong>Monday, August 3</strong><ul>"
+           "<li>All drop-in skating, cancelled</li></ul></li></ul>"
+    }
+    rink = {"name": "Test Arena", "url": "https://example.com/test-arena"}
+    sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
+
+    assert not any(s["date"] == "2026-08-03" for s in sessions)
+    assert any(s["date"] == "2026-08-10" for s in sessions)
+    print("test_exceptions_html_id_zero_is_not_treated_as_missing OK")
+
+
+def test_manual_cancellation_override_for_figure_skate_civic_holiday():
+    # Sandy Hill's figure skate schedule group carries no cancellation
+    # notice of its own for the Aug 3 civic holiday in the upstream
+    # dataset, so this is caught by MANUAL_CANCELLATIONS instead of parsing
+    activities, html_by_id = load_fixture()
+    rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
+    sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
+
+    figure_sessions = [s for s in sessions if s["type"] == "Figure Skating"]
+    assert not any(s["date"] == "2026-08-03" for s in figure_sessions)
+    assert any(s["date"] == "2026-08-10" for s in figure_sessions)
+    print("test_manual_cancellation_override_for_figure_skate_civic_holiday OK")
+
+
 def test_sessions_never_precede_today():
     activities, html_by_id = load_fixture()
     rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
@@ -113,8 +162,11 @@ if __name__ == "__main__":
     test_parse_cancellation_dates_single()
     test_parse_cancellation_dates_range()
     test_parse_cancellation_dates_unparseable_returns_empty()
+    test_parse_cancellation_dates_multi_label_prefix()
     test_sandy_hill_sessions_exclude_cancelled_dates()
     test_figure_skate_uses_its_own_cancellation_group()
     test_reservation_required_is_propagated_per_session()
+    test_exceptions_html_id_zero_is_not_treated_as_missing()
+    test_manual_cancellation_override_for_figure_skate_civic_holiday()
     test_sessions_never_precede_today()
     test_unknown_rink_raises()
