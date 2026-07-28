@@ -1,0 +1,41 @@
+name: Diagnose Sandy Hill Aug 3 cancellation
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch dataset and inspect Sandy Hill cancellation notices
+        run: |
+          python3 - <<'EOF'
+          import json
+          import urllib.request
+
+          req = urllib.request.Request(
+              "https://data.ottrec.ca/export/latest.json",
+              headers={"User-Agent": "Mozilla/5.0"},
+          )
+          with urllib.request.urlopen(req, timeout=60) as resp:
+              data = json.load(resp)
+
+          activities = data["activity"]
+          html_by_id = {h["id"]: h["html"] for h in data["html"]}
+          url = "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"
+
+          matches = [a for a in activities if a["facilityUrl"] == url and a["name"] in
+                     ("public skate", "family skate", "adult skate 18+", "figure skate")]
+
+          seen = set()
+          for a in matches:
+              eid = a.get("exceptionsHtmlId")
+              print(f"activity={a['name']} weekday={a.get('weekday')} start={a.get('startTime')} "
+                    f"end={a.get('endTime')} startDate={a.get('startDate')} endDate={a.get('endDate')} "
+                    f"exceptionsHtmlId={eid}")
+              if eid and eid not in seen:
+                  seen.add(eid)
+                  print(f"  --- html for exceptionsHtmlId={eid} ---")
+                  print("  " + (html_by_id.get(eid) or "(none)").replace("\n", "\n  "))
+                  print("  --- end ---")
+          EOF
