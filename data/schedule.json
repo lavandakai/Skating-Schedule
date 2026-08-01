@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:30:05+00:00",
+  "generated_at": "2026-08-01T12:55:02+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -28,7 +28,8 @@
       "name": "Tom Brown Arena",
       "shortName": "Tom Brown",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "status": "ok"
+      "status": "error",
+      "error": "No matching skating sessions found in the dataset"
     },
     {
       "name": "Bob MacQuarrie Recreation Complex - Orleans",
@@ -44,36 +45,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-07-31",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-07-31",
-      "startTime": "18:00",
-      "endTime": "18:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-07-31",
-      "startTime": "20:15",
-      "endTime": "21:05",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
     {
       "date": "2026-08-01",
       "startTime": "15:15",
