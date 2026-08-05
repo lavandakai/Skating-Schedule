@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T14:14:25+00:00",
+  "generated_at": "2026-08-05T13:41:37+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -45,66 +45,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-08-03",
-      "startTime": "16:15",
-      "endTime": "17:05",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-03",
-      "startTime": "17:15",
-      "endTime": "18:05",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-04",
-      "startTime": "15:15",
-      "endTime": "16:05",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-04",
-      "startTime": "16:15",
-      "endTime": "17:05",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-04",
-      "startTime": "20:00",
-      "endTime": "20:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-08-04",
-      "startTime": "21:00",
-      "endTime": "21:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
     {
       "date": "2026-08-05",
       "startTime": "18:00",
@@ -223,6 +163,16 @@
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-08-09",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
       "reservationRequired": true
     },
     {
@@ -363,6 +313,16 @@
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-08-16",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
       "reservationRequired": true
     },
     {
@@ -577,6 +537,16 @@
     },
     {
       "date": "2026-08-23",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-08-23",
       "startTime": "17:15",
       "endTime": "18:05",
       "rink": "Minto Recreation Complex - Barrhaven",
@@ -774,6 +744,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-08-30",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-08-31",
