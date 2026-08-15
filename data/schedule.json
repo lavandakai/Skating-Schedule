@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-08-13T12:43:52+00:00",
+  "generated_at": "2026-08-15T12:16:38+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
+    "Address data via geocodio (CanVec+ by Natural Resources Canada)",
     "Address data © Patrick Gaskin."
   ],
   "rinks": [
