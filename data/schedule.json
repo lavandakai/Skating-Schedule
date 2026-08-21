@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-08-19T12:22:40+00:00",
+  "generated_at": "2026-08-21T12:24:16+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
     "Address data via geocodio (CanVec+ by Natural Resources Canada)",
+    "Address data via geocodio (Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.))",
     "Address data © Patrick Gaskin."
   ],
   "rinks": [
@@ -46,16 +47,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-08-19",
-      "startTime": "18:00",
-      "endTime": "18:50",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
     {
       "date": "2026-08-21",
       "startTime": "17:00",
