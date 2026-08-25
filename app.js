@@ -180,7 +180,10 @@ function renderLegend() {
 
 function renderRinkFilters() {
   const container = document.getElementById("rink-filters");
-  container.innerHTML = state.data.rinks
+  const sortedRinks = [...state.data.rinks].sort((a, b) =>
+    (a.shortName || a.name).localeCompare(b.shortName || b.name)
+  );
+  container.innerHTML = sortedRinks
     .map((rink) => {
       const active = state.activeRinks.has(rink.name);
       const flagged = rink.status === "error" || rink.status === "stale";
