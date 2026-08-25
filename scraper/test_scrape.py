@@ -201,6 +201,39 @@ def test_sessions_never_precede_today():
     print("test_sessions_never_precede_today OK")
 
 
+def test_exclude_types_omits_matching_sessions():
+    activities, html_by_id = load_fixture()
+    rink = {
+        "name": "Sandy Hill Arena",
+        "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+        "excludeTypes": ["Family Skating"],
+    }
+    sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
+    assert not any(s["type"] == "Family Skating" for s in sessions)
+    assert any(s["type"] == "Public Skating" for s in sessions)
+    print("test_exclude_types_omits_matching_sessions OK")
+
+
+def test_adult_skate_without_18_plus_suffix_is_recognized():
+    # some rinks (e.g. Canterbury) normalize the activity name to "adult
+    # skate" instead of "adult skate 18+"; both should map to the same type
+    activities = [{
+        "facilityUrl": "https://example.com/test-arena",
+        "startDate": "2026-09-01",
+        "endDate": "2026-12-01",
+        "weekday": "monday",
+        "startTime": "11:00",
+        "endTime": "12:00",
+        "name": "adult skate",
+        "reservationRequired": False,
+        "exceptionsHtmlId": 0,
+    }]
+    rink = {"name": "Test Arena", "url": "https://example.com/test-arena"}
+    sessions = build_rink_sessions(rink, activities, {}, date(2026, 9, 1))
+    assert any(s["type"] == "Adult Skating (18+)" for s in sessions)
+    print("test_adult_skate_without_18_plus_suffix_is_recognized OK")
+
+
 def test_unknown_rink_raises():
     activities, html_by_id = load_fixture()
     rink = {"name": "Nonexistent Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nonexistent-arena"}
@@ -225,5 +258,7 @@ if __name__ == "__main__":
     test_manual_cancellation_override()
     test_manual_additional_sessions_are_injected_per_rink()
     test_manual_time_correction_fixes_mislabeled_activity()
+    test_exclude_types_omits_matching_sessions()
+    test_adult_skate_without_18_plus_suffix_is_recognized()
     test_sessions_never_precede_today()
     test_unknown_rink_raises()

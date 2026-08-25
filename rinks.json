@@ -23,5 +23,11 @@
     "name": "Minto Recreation Complex - Barrhaven",
     "shortName": "Minto",
     "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven"
+  },
+  {
+    "name": "Canterbury Recreation Complex",
+    "shortName": "Canterbury",
+    "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+    "excludeTypes": ["Family Skating"]
   }
 ]

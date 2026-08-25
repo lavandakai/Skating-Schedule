@@ -44,6 +44,7 @@ SESSION_NAMES = {
     "public skate": "Public Skating",
     "family skate": "Family Skating",
     "adult skate 18+": "Adult Skating (18+)",
+    "adult skate": "Adult Skating (18+)",  # e.g. Canterbury normalizes without "18+"
     "figure skate": "Figure Skating",
 }
 
@@ -238,9 +239,12 @@ def _parse_iso_date(value):
 
 
 def build_rink_sessions(rink, activities, html_by_id, today):
+    exclude_types = set(rink.get("excludeTypes", []))
     matches = [
         a for a in activities
-        if a["facilityUrl"] == rink["url"] and a["name"] in SESSION_NAMES
+        if a["facilityUrl"] == rink["url"]
+        and a["name"] in SESSION_NAMES
+        and SESSION_NAMES[a["name"]] not in exclude_types
     ]
     if not matches:
         raise ScrapeError("No matching skating sessions found in the dataset")
@@ -297,7 +301,7 @@ def build_rink_sessions(rink, activities, html_by_id, today):
             cursor += timedelta(days=1)
 
     for extra in MANUAL_ADDITIONAL_SESSIONS:
-        if extra["rinkUrl"] != rink["url"]:
+        if extra["rinkUrl"] != rink["url"] or extra["type"] in exclude_types:
             continue
         cursor = max(extra["startDate"], today)
         while cursor <= extra["endDate"]:
