@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:36:57+00:00",
+  "generated_at": "2026-08-25T19:47:26+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -36,6 +36,12 @@
       "name": "Minto Recreation Complex - Barrhaven",
       "shortName": "Minto",
       "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "status": "ok"
+    },
+    {
+      "name": "Canterbury Recreation Complex",
+      "shortName": "Canterbury",
+      "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "status": "ok"
     }
   ],
@@ -221,6 +227,56 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-02",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-02",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-04",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-04",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-05",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-09-05",
       "startTime": "20:00",
       "endTime": "20:50",
@@ -271,6 +327,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-07",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-07",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-09-08",
       "startTime": "16:00",
       "endTime": "16:50",
@@ -291,12 +367,62 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-09",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-09",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-11",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-11",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-09-11",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-12",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -371,6 +497,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-14",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-14",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-09-15",
       "startTime": "16:00",
       "endTime": "16:50",
@@ -387,6 +533,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-16",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-16",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -412,11 +578,41 @@
     },
     {
       "date": "2026-09-18",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-18",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-18",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-19",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -511,6 +707,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-21",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-21",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-09-22",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -537,6 +753,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-23",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-23",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -562,11 +798,41 @@
     },
     {
       "date": "2026-09-25",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-25",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-26",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -661,6 +927,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-28",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-28",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-09-29",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -687,6 +973,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-30",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-30",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -712,11 +1018,41 @@
     },
     {
       "date": "2026-10-02",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-02",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-02",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-03",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -811,6 +1147,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-05",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-05",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-06",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -837,6 +1193,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-07",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-07",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -862,11 +1238,41 @@
     },
     {
       "date": "2026-10-09",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-09",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-09",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-10",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -961,6 +1367,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-12",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-12",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-13",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -987,6 +1413,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-14",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-14",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1012,11 +1458,41 @@
     },
     {
       "date": "2026-10-16",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-16",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-16",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-17",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1111,6 +1587,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-19",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-19",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-20",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -1137,6 +1633,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-21",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-21",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1162,11 +1678,41 @@
     },
     {
       "date": "2026-10-23",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-23",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-23",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-24",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1261,6 +1807,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-26",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-26",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-27",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -1287,6 +1853,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-28",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-28",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1312,11 +1898,41 @@
     },
     {
       "date": "2026-10-30",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-30",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-30",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-31",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1411,6 +2027,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-02",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-02",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-11-03",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -1441,6 +2077,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-04",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-04",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-11-05",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -1457,6 +2113,36 @@
       "rink": "Jim Durrell Recreation Centre",
       "rinkShort": "Jim Durrell",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-06",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-06",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-07",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1531,6 +2217,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-09",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-09",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-11-10",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -1557,6 +2263,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-11",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-11",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1582,11 +2308,41 @@
     },
     {
       "date": "2026-11-13",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-13",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-13",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-14",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1681,6 +2437,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-16",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-16",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-11-17",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -1707,6 +2483,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-18",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-18",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1732,11 +2528,41 @@
     },
     {
       "date": "2026-11-20",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-20",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-20",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-21",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1831,6 +2657,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-23",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-23",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-11-24",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -1857,6 +2703,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-25",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-25",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1882,11 +2748,41 @@
     },
     {
       "date": "2026-11-27",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-27",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-27",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-28",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -1981,6 +2877,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-30",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-30",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-01",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -2007,6 +2923,26 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-02",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-02",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -2032,11 +2968,41 @@
     },
     {
       "date": "2026-12-04",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-04",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-04",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-05",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -2131,6 +3097,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-07",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-07",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-08",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -2161,12 +3147,62 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-09",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-09",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-11",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-11",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-11",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-12",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -2241,6 +3277,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-14",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-14",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-15",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -2271,6 +3327,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-16",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-16",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-17",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -2292,11 +3368,41 @@
     },
     {
       "date": "2026-12-18",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-18",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-18",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-19",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -2391,6 +3497,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-21",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-21",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-22",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -2421,6 +3547,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-23",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-23",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-24",
       "startTime": "11:00",
       "endTime": "11:50",
@@ -2442,11 +3588,41 @@
     },
     {
       "date": "2026-12-25",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-25",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-25",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-26",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -2521,6 +3697,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-28",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-28",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-29",
       "startTime": "16:00",
       "endTime": "16:50",
@@ -2537,6 +3733,1126 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-30",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-30",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-01",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-01",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-02",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-04",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-04",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-06",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-06",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-08",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-08",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-09",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-11",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-11",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-13",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-13",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-15",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-15",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-16",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-18",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-18",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-20",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-20",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-22",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-22",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-23",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-25",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-25",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-27",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-27",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-29",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-29",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-30",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-01",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-01",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-03",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-03",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-05",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-05",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-06",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-08",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-08",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-10",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-10",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-12",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-12",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-13",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-15",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-15",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-17",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-17",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-19",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-19",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-20",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-22",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-22",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-24",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-24",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-26",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-26",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-27",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-01",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-01",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-03",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-03",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-05",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-05",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-06",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-08",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-08",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-10",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-10",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-12",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-12",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-13",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-15",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-15",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-17",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-17",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-19",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-19",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-20",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-22",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-22",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-24",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-24",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-26",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-26",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-27",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-29",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-29",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-31",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-31",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-02",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-02",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-03",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-05",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-05",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-07",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-07",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-09",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-09",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-10",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-12",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-12",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-14",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-14",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-16",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-16",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-17",
+      "startTime": "17:00",
+      "endTime": "18:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-19",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Adult Skating (18+)",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-19",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "rink": "Canterbury Recreation Complex",
+      "rinkShort": "Canterbury",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     }
