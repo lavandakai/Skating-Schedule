@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:33:13+00:00",
+  "generated_at": "2026-08-25T19:36:57+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -248,8 +248,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-09-06",
@@ -329,8 +328,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-09-13",
@@ -450,8 +448,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-09-20",
@@ -601,8 +598,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-09-27",
@@ -752,8 +748,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-10-04",
@@ -903,8 +898,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-10-11",
@@ -1054,8 +1048,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-10-18",
@@ -1205,8 +1198,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-10-25",
@@ -1356,8 +1348,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-11-01",
@@ -1497,8 +1488,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-11-08",
@@ -1628,8 +1618,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-11-15",
@@ -1779,8 +1768,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-11-22",
@@ -1930,8 +1918,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-11-29",
@@ -2081,8 +2068,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-12-06",
@@ -2192,8 +2178,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-12-13",
@@ -2343,8 +2328,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-12-20",
@@ -2474,8 +2458,7 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Figure Skating",
-      "reservationRequired": true,
-      "note": "Ages 6+"
+      "reservationRequired": true
     },
     {
       "date": "2026-12-27",
