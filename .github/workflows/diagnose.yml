@@ -1,4 +1,4 @@
-name: Diagnose Canterbury Recreation Complex
+name: Diagnose Canterbury adult skate
 
 on:
   workflow_dispatch: {}
@@ -7,7 +7,7 @@ jobs:
   diagnose:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect Canterbury activities in the dataset
+      - name: Inspect Canterbury adult skate activities
         run: |
           python3 - <<'EOF'
           import json
@@ -20,14 +20,12 @@ jobs:
           with urllib.request.urlopen(req, timeout=60) as resp:
               data = json.load(resp)
 
-          urls = sorted({a["facilityUrl"] for a in data["activity"] if "canterbury" in a["facilityUrl"].lower()})
-          print("matching facility URLs:", urls)
+          url = "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex"
+          matches = [a for a in data["activity"] if a["facilityUrl"] == url and a["name"] == "adult skate"]
+          for a in matches:
+              print(a)
 
-          for u in urls:
-              matches = [a for a in data["activity"] if a["facilityUrl"] == u]
-              names = sorted({a["name"] for a in matches})
-              print(u, "-> activity names:", names)
-              for a in matches:
-                  if a["name"] in ("public skate", "family skate", "adult skate 18+", "figure skate"):
-                      print(" ", a)
+          print("--- checking if any OTHER rink also uses 'adult skate' (no 18+) ---")
+          others = sorted({a["facilityUrl"] for a in data["activity"] if a["name"] == "adult skate"})
+          print(others)
           EOF
