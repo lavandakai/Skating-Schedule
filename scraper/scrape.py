@@ -72,7 +72,6 @@ MANUAL_ADDITIONAL_SESSIONS = [
         "startDate": date(2026, 9, 1),
         "endDate": date(2026, 12, 29),
         "reservationRequired": True,
-        "note": "Ages 6+",
     },
 ]
 
