@@ -56,11 +56,45 @@ DAY_NAMES = [
 # group (e.g. a rink's "ice sports"/figure-skate table has no cancellation
 # text of its own even when its "skating" table does), so they can't be
 # caught by parsing. Keyed by (rink URL, session type) to a set of dates.
-MANUAL_CANCELLATIONS = {
+MANUAL_CANCELLATIONS = {}
+
+# Recurring sessions confirmed to run but missing entirely from the upstream
+# dataset for that rink (e.g. a newly-published fall schedule that left one
+# activity out). Remove an entry once the rink's own page/the dataset picks
+# it up, to avoid double-booking it.
+MANUAL_ADDITIONAL_SESSIONS = [
+    {
+        "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+        "type": "Figure Skating",
+        "weekday": "saturday",
+        "startTime": "22:00",
+        "endTime": "22:50",
+        "startDate": date(2026, 9, 1),
+        "endDate": date(2026, 12, 29),
+        "reservationRequired": True,
+        "note": "Ages 6+",
+    },
+]
+
+# Recurring activities whose upstream startTime/endTime is confirmed wrong
+# (e.g. an AM/PM mislabel on the rink's own posted schedule). Matched by
+# (rink URL, session type, weekday, wrong start, wrong end); remove an entry
+# once the rink/dataset corrects it upstream.
+MANUAL_TIME_CORRECTIONS = {
     (
-        "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-        "Figure Skating",
-    ): {date(2026, 8, 3)},  # Civic Holiday
+        "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
+        "Adult Skating (18+)",
+        "tuesday",
+        "23:00",
+        "23:50",
+    ): ("11:00", "11:50"),
+    (
+        "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
+        "Adult Skating (18+)",
+        "thursday",
+        "23:00",
+        "23:50",
+    ): ("11:00", "11:50"),
 }
 
 MONTHS = {
@@ -238,6 +272,12 @@ def build_rink_sessions(rink, activities, html_by_id, today):
             continue
 
         session_type = SESSION_NAMES[activity["name"]]
+        correction = MANUAL_TIME_CORRECTIONS.get(
+            (rink["url"], session_type, weekday, start_time, end_time)
+        )
+        if correction:
+            start_time, end_time = correction
+
         excluded_ranges = excluded_ranges_by_group.get(activity.get("exceptionsHtmlId"), [])
         manual_excluded_dates = MANUAL_CANCELLATIONS.get((rink["url"], session_type), set())
         cursor = max(start, today)
@@ -255,6 +295,27 @@ def build_rink_sessions(rink, activities, html_by_id, today):
                         "type": session_type,
                         "reservationRequired": bool(activity.get("reservationRequired")),
                     })
+            cursor += timedelta(days=1)
+
+    for extra in MANUAL_ADDITIONAL_SESSIONS:
+        if extra["rinkUrl"] != rink["url"]:
+            continue
+        cursor = max(extra["startDate"], today)
+        while cursor <= extra["endDate"]:
+            if DAY_NAMES[cursor.weekday()] == extra["weekday"]:
+                session = {
+                    "date": cursor.isoformat(),
+                    "startTime": extra["startTime"],
+                    "endTime": extra["endTime"],
+                    "rink": rink["name"],
+                    "rinkShort": rink.get("shortName", rink["name"]),
+                    "rinkUrl": rink["url"],
+                    "type": extra["type"],
+                    "reservationRequired": bool(extra.get("reservationRequired")),
+                }
+                if extra.get("note"):
+                    session["note"] = extra["note"]
+                sessions.append(session)
             cursor += timedelta(days=1)
 
     return sessions

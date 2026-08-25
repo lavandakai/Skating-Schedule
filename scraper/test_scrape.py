@@ -7,6 +7,7 @@ import json
 from datetime import date
 from pathlib import Path
 
+import scrape
 from scrape import build_rink_sessions, parse_cancellation_dates
 
 FIXTURE = Path(__file__).parent / "fixtures" / "ottrec_sample.json"
@@ -123,18 +124,72 @@ def test_exceptions_html_id_zero_is_not_treated_as_missing():
     print("test_exceptions_html_id_zero_is_not_treated_as_missing OK")
 
 
-def test_manual_cancellation_override_for_figure_skate_civic_holiday():
-    # Sandy Hill's figure skate schedule group carries no cancellation
-    # notice of its own for the Aug 3 civic holiday in the upstream
-    # dataset, so this is caught by MANUAL_CANCELLATIONS instead of parsing
+def test_manual_cancellation_override():
+    # covers cases like a rink's schedule group carrying no cancellation
+    # notice of its own for a known one-off closure in the upstream
+    # dataset, so it must be caught by MANUAL_CANCELLATIONS instead of parsing
     activities, html_by_id = load_fixture()
     rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
-    sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
+    original = scrape.MANUAL_CANCELLATIONS
+    try:
+        scrape.MANUAL_CANCELLATIONS = {(rink["url"], "Figure Skating"): {date(2026, 8, 3)}}
+        sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
+    finally:
+        scrape.MANUAL_CANCELLATIONS = original
 
     figure_sessions = [s for s in sessions if s["type"] == "Figure Skating"]
     assert not any(s["date"] == "2026-08-03" for s in figure_sessions)
     assert any(s["date"] == "2026-08-10" for s in figure_sessions)
-    print("test_manual_cancellation_override_for_figure_skate_civic_holiday OK")
+    print("test_manual_cancellation_override OK")
+
+
+def test_manual_additional_sessions_are_injected_per_rink():
+    activities, html_by_id = load_fixture()
+    rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
+    original = scrape.MANUAL_ADDITIONAL_SESSIONS
+    try:
+        scrape.MANUAL_ADDITIONAL_SESSIONS = [{
+            "rinkUrl": rink["url"],
+            "type": "Figure Skating",
+            "weekday": "saturday",
+            "startTime": "22:00",
+            "endTime": "22:50",
+            "startDate": date(2026, 9, 1),
+            "endDate": date(2026, 9, 30),
+            "reservationRequired": True,
+            "note": "Ages 6+",
+        }]
+        sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
+    finally:
+        scrape.MANUAL_ADDITIONAL_SESSIONS = original
+
+    added = [s for s in sessions if s["date"] == "2026-09-05" and s["type"] == "Figure Skating"]
+    assert len(added) == 1
+    assert added[0]["startTime"] == "22:00" and added[0]["endTime"] == "22:50"
+    assert added[0]["reservationRequired"] is True
+    assert added[0]["note"] == "Ages 6+"
+    print("test_manual_additional_sessions_are_injected_per_rink OK")
+
+
+def test_manual_time_correction_fixes_mislabeled_activity():
+    activities, html_by_id = load_fixture()
+    rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
+    original = scrape.MANUAL_TIME_CORRECTIONS
+    try:
+        # the fixture's Sandy Hill adult skate runs Monday 16:00-16:50;
+        # pretend that was mislabeled and should really be 4:00-4:50am
+        scrape.MANUAL_TIME_CORRECTIONS = {
+            (rink["url"], "Adult Skating (18+)", "monday", "16:00", "16:50"): ("04:00", "04:50"),
+        }
+        sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 6, 29))
+    finally:
+        scrape.MANUAL_TIME_CORRECTIONS = original
+
+    monday_adult = [s for s in sessions if s["type"] == "Adult Skating (18+)" and s["date"] == "2026-07-06"]
+    assert len(monday_adult) == 1
+    assert monday_adult[0]["startTime"] == "04:00"
+    assert monday_adult[0]["endTime"] == "04:50"
+    print("test_manual_time_correction_fixes_mislabeled_activity OK")
 
 
 def test_sessions_never_precede_today():
@@ -167,6 +222,8 @@ if __name__ == "__main__":
     test_figure_skate_uses_its_own_cancellation_group()
     test_reservation_required_is_propagated_per_session()
     test_exceptions_html_id_zero_is_not_treated_as_missing()
-    test_manual_cancellation_override_for_figure_skate_civic_holiday()
+    test_manual_cancellation_override()
+    test_manual_additional_sessions_are_injected_per_rink()
+    test_manual_time_correction_fixes_mislabeled_activity()
     test_sessions_never_precede_today()
     test_unknown_rink_raises()

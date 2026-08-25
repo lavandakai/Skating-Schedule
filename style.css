@@ -440,6 +440,12 @@ main {
   font-weight: 700;
 }
 
+.session-note {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 .reservation-note {
   color: var(--stale);
   font-size: 0.8rem;

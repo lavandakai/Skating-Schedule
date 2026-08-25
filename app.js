@@ -270,6 +270,9 @@ function renderMonthView(sessionsByDate) {
 }
 
 function renderSessionRow(session) {
+  const sessionNote = session.note
+    ? `<span class="session-note">${escapeHtml(session.note)}</span>`
+    : "";
   const reservationNote = session.reservationRequired
     ? `<span class="reservation-note">Reservation required</span>`
     : "";
@@ -280,6 +283,7 @@ function renderSessionRow(session) {
         ${formatClock(session.startTime)}&ndash;${formatClock(session.endTime)}
       </span>
       <span class="today-meta"><strong>${escapeHtml(session.rinkShort || session.rink)}</strong> &middot; ${escapeHtml(session.type)}</span>
+      ${sessionNote}
       ${reservationNote}
     </a>
   `;
@@ -412,7 +416,10 @@ async function main() {
   }
 
   state.data = data;
-  state.activeRinks = new Set(data.rinks.map((r) => r.name));
+  // Empty by default so the calendar doesn't look cluttered before a
+  // visitor picks the rinks they care about; a returning visitor's saved
+  // selection (if any) still takes over below.
+  state.activeRinks = new Set();
   const savedRinks = loadSavedActiveRinks();
   if (savedRinks) {
     const validNames = new Set(data.rinks.map((r) => r.name));
