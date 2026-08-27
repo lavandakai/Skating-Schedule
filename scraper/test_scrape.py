@@ -234,6 +234,26 @@ def test_adult_skate_without_18_plus_suffix_is_recognized():
     print("test_adult_skate_without_18_plus_suffix_is_recognized OK")
 
 
+def test_figure_skate_age_suffix_variant_is_recognized():
+    # some rinks (e.g. Fred Barrett) normalize the activity name to "figure
+    # skate 6+"; it should still map to the plain "Figure Skating" type/label
+    activities = [{
+        "facilityUrl": "https://example.com/test-arena",
+        "startDate": "2026-09-08",
+        "endDate": "2026-12-27",
+        "weekday": "friday",
+        "startTime": "15:00",
+        "endTime": "15:50",
+        "name": "figure skate 6+",
+        "reservationRequired": True,
+        "exceptionsHtmlId": 0,
+    }]
+    rink = {"name": "Test Arena", "url": "https://example.com/test-arena"}
+    sessions = build_rink_sessions(rink, activities, {}, date(2026, 9, 1))
+    assert any(s["type"] == "Figure Skating" for s in sessions)
+    print("test_figure_skate_age_suffix_variant_is_recognized OK")
+
+
 def test_unknown_rink_raises():
     activities, html_by_id = load_fixture()
     rink = {"name": "Nonexistent Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/nonexistent-arena"}
@@ -260,5 +280,6 @@ if __name__ == "__main__":
     test_manual_time_correction_fixes_mislabeled_activity()
     test_exclude_types_omits_matching_sessions()
     test_adult_skate_without_18_plus_suffix_is_recognized()
+    test_figure_skate_age_suffix_variant_is_recognized()
     test_sessions_never_precede_today()
     test_unknown_rink_raises()

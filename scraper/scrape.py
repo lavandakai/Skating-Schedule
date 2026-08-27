@@ -46,6 +46,7 @@ SESSION_NAMES = {
     "adult skate 18+": "Adult Skating (18+)",
     "adult skate": "Adult Skating (18+)",  # e.g. Canterbury normalizes without "18+"
     "figure skate": "Figure Skating",
+    "figure skate 6+": "Figure Skating",  # e.g. Fred Barrett normalizes with an age suffix
 }
 
 DAY_NAMES = [
