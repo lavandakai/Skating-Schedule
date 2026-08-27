@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T19:47:26+00:00",
+  "generated_at": "2026-08-27T16:20:30+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -46,56 +46,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-08-25",
-      "startTime": "15:15",
-      "endTime": "16:05",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-25",
-      "startTime": "16:15",
-      "endTime": "17:05",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-25",
-      "startTime": "20:00",
-      "endTime": "20:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-08-25",
-      "startTime": "21:00",
-      "endTime": "21:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-26",
-      "startTime": "18:00",
-      "endTime": "18:50",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
     {
       "date": "2026-08-28",
       "startTime": "17:00",
@@ -408,6 +358,16 @@
     },
     {
       "date": "2026-09-11",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-11",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -445,6 +405,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-12",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-12",
@@ -598,6 +568,16 @@
     },
     {
       "date": "2026-09-18",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-18",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -635,6 +615,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-19",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-19",
@@ -815,6 +805,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-25",
@@ -1038,6 +1038,16 @@
     },
     {
       "date": "2026-10-02",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-02",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -1075,6 +1085,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-03",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-03",
@@ -1258,6 +1278,16 @@
     },
     {
       "date": "2026-10-09",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-09",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -1295,6 +1325,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-10",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-10",
@@ -1478,6 +1518,16 @@
     },
     {
       "date": "2026-10-16",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-16",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -1515,6 +1565,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-17",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-17",
@@ -1698,6 +1758,16 @@
     },
     {
       "date": "2026-10-23",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-23",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -1735,6 +1805,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-24",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-24",
@@ -1918,6 +1998,16 @@
     },
     {
       "date": "2026-10-30",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-30",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -1955,6 +2045,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-31",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-31",
@@ -2177,6 +2277,16 @@
       "reservationRequired": true
     },
     {
+      "date": "2026-11-07",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-11-08",
       "startTime": "14:15",
       "endTime": "15:05",
@@ -2328,6 +2438,16 @@
     },
     {
       "date": "2026-11-13",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-13",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -2365,6 +2485,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-14",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-14",
@@ -2548,6 +2678,16 @@
     },
     {
       "date": "2026-11-20",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-20",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -2585,6 +2725,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-21",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-21",
@@ -2768,6 +2918,16 @@
     },
     {
       "date": "2026-11-27",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-27",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -2805,6 +2965,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-28",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-28",
@@ -2988,6 +3158,16 @@
     },
     {
       "date": "2026-12-04",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-12-04",
       "startTime": "19:00",
       "endTime": "19:50",
       "rink": "Fred Barrett Arena",
@@ -3025,6 +3205,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-05",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-05",
@@ -3185,6 +3375,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-11",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-11",
@@ -3385,6 +3585,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-18",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-18",
@@ -3605,6 +3815,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-25",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Fred Barrett Arena",
+      "rinkShort": "Fred Barrett",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-25",
