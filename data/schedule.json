@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:20:30+00:00",
+  "generated_at": "2026-08-27T16:26:03+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -247,16 +247,6 @@
       "reservationRequired": false
     },
     {
-      "date": "2026-09-05",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-09-06",
       "startTime": "15:00",
       "endTime": "15:50",
@@ -405,16 +395,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
     },
     {
       "date": "2026-09-12",
@@ -615,16 +595,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
-    },
-    {
-      "date": "2026-09-19",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
     },
     {
       "date": "2026-09-19",
@@ -857,16 +827,6 @@
       "reservationRequired": false
     },
     {
-      "date": "2026-09-26",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-09-27",
       "startTime": "13:00",
       "endTime": "13:50",
@@ -1085,16 +1045,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
-    },
-    {
-      "date": "2026-10-03",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
     },
     {
       "date": "2026-10-03",
@@ -1337,16 +1287,6 @@
       "reservationRequired": true
     },
     {
-      "date": "2026-10-10",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-10-11",
       "startTime": "13:00",
       "endTime": "13:50",
@@ -1565,16 +1505,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
-    },
-    {
-      "date": "2026-10-17",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
     },
     {
       "date": "2026-10-17",
@@ -1817,16 +1747,6 @@
       "reservationRequired": true
     },
     {
-      "date": "2026-10-24",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-10-25",
       "startTime": "13:00",
       "endTime": "13:50",
@@ -2057,16 +1977,6 @@
       "reservationRequired": true
     },
     {
-      "date": "2026-10-31",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-11-01",
       "startTime": "13:00",
       "endTime": "13:50",
@@ -2277,16 +2187,6 @@
       "reservationRequired": true
     },
     {
-      "date": "2026-11-07",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-11-08",
       "startTime": "14:15",
       "endTime": "15:05",
@@ -2485,16 +2385,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
-    },
-    {
-      "date": "2026-11-14",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
     },
     {
       "date": "2026-11-14",
@@ -2737,16 +2627,6 @@
       "reservationRequired": true
     },
     {
-      "date": "2026-11-21",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-11-22",
       "startTime": "13:00",
       "endTime": "13:50",
@@ -2965,16 +2845,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
-    },
-    {
-      "date": "2026-11-28",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
     },
     {
       "date": "2026-11-28",
@@ -3217,16 +3087,6 @@
       "reservationRequired": true
     },
     {
-      "date": "2026-12-05",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-12-06",
       "startTime": "13:00",
       "endTime": "13:50",
@@ -3405,16 +3265,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
-    },
-    {
-      "date": "2026-12-12",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
     },
     {
       "date": "2026-12-13",
@@ -3637,16 +3487,6 @@
       "reservationRequired": false
     },
     {
-      "date": "2026-12-19",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-12-20",
       "startTime": "13:00",
       "endTime": "13:50",
@@ -3845,16 +3685,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
-    },
-    {
-      "date": "2026-12-26",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
     },
     {
       "date": "2026-12-27",
