@@ -64,18 +64,12 @@ MANUAL_CANCELLATIONS = {}
 # dataset for that rink (e.g. a newly-published fall schedule that left one
 # activity out). Remove an entry once the rink's own page/the dataset picks
 # it up, to avoid double-booking it.
-MANUAL_ADDITIONAL_SESSIONS = [
-    {
-        "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-        "type": "Figure Skating",
-        "weekday": "saturday",
-        "startTime": "22:00",
-        "endTime": "22:50",
-        "startDate": date(2026, 9, 1),
-        "endDate": date(2026, 12, 29),
-        "reservationRequired": True,
-    },
-]
+#
+# Sandy Hill's Saturday 10-10:50pm figure skate (Sept 1-Dec 29) used to need
+# an entry here, but the dataset now carries it natively under the "figure
+# skate 6+" activity name (recognized in SESSION_NAMES above), so it was
+# removed to avoid a duplicate.
+MANUAL_ADDITIONAL_SESSIONS = []
 
 # Recurring activities whose upstream startTime/endTime is confirmed wrong
 # (e.g. an AM/PM mislabel on the rink's own posted schedule). Matched by
