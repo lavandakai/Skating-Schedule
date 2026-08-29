@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T21:24:59+00:00",
+  "generated_at": "2026-08-29T15:54:45+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -46,36 +46,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-08-28",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-28",
-      "startTime": "18:00",
-      "endTime": "18:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-28",
-      "startTime": "20:15",
-      "endTime": "21:05",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
     {
       "date": "2026-08-29",
       "startTime": "15:15",
@@ -197,6 +167,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-03",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-03",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-09-04",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -214,6 +204,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-04",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-04",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -288,6 +298,16 @@
     },
     {
       "date": "2026-09-08",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-08",
       "startTime": "16:00",
       "endTime": "16:50",
       "rink": "Sandy Hill Arena",
@@ -327,6 +347,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-10",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-10",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-09-11",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -364,6 +404,26 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-11",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-11",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -447,6 +507,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-13",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-13",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-09-14",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -465,6 +545,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-14",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-15",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-15",
@@ -505,6 +605,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-17",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-17",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-17",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-17",
@@ -567,6 +697,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-18",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-18",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-09-19",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -614,6 +764,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-20",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -667,6 +827,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-20",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-20",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-09-21",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -685,6 +865,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-21",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-22",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-22",
@@ -697,26 +897,6 @@
       "reservationRequired": false
     },
     {
-      "date": "2026-09-22",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-22",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
       "date": "2026-09-23",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -735,6 +915,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-24",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-24",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-24",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-24",
@@ -797,6 +1007,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-25",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-25",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-09-26",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -834,6 +1064,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-27",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -887,6 +1127,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-09-27",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-09-27",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-09-28",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -905,6 +1165,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-28",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-09-29",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-29",
@@ -955,6 +1235,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-01",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-01",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-01",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-01",
@@ -1017,6 +1327,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-02",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-02",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-03",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -1064,6 +1394,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-04",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -1117,6 +1457,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-04",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-04",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-10-05",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -1135,6 +1495,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-05",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-06",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-06",
@@ -1185,6 +1565,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-08",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-08",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-08",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-08",
@@ -1247,6 +1657,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-09",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-09",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-10",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -1294,6 +1724,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-11",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -1347,6 +1787,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-11",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-11",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-10-12",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -1365,6 +1825,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-12",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-13",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-13",
@@ -1415,6 +1895,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-15",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-15",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-15",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-15",
@@ -1477,6 +1987,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-16",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-16",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-17",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -1524,6 +2054,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-18",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -1577,6 +2117,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-18",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-18",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-10-19",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -1595,6 +2155,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-19",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-20",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-20",
@@ -1645,6 +2225,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-22",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-22",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-22",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-22",
@@ -1707,6 +2317,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-23",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-23",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-24",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -1754,6 +2384,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-25",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -1807,6 +2447,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-25",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-25",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-10-26",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -1825,6 +2485,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-26",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-27",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-27",
@@ -1875,6 +2555,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-29",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-10-29",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-29",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-29",
@@ -1937,6 +2647,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-10-30",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-10-30",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-10-31",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -1984,6 +2714,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-01",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -2037,6 +2777,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-01",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-01",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-11-02",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -2055,6 +2815,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-02",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-03",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-03",
@@ -2108,6 +2888,36 @@
     },
     {
       "date": "2026-11-05",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-05",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-05",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-05",
       "startTime": "11:00",
       "endTime": "11:50",
       "rink": "Jim Durrell Recreation Centre",
@@ -2144,6 +2954,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-06",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-06",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -2188,6 +3018,16 @@
     },
     {
       "date": "2026-11-08",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-08",
       "startTime": "14:15",
       "endTime": "15:05",
       "rink": "Jim Durrell Recreation Centre",
@@ -2227,6 +3067,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-08",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-08",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-11-09",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -2245,6 +3105,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-09",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-10",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-10",
@@ -2295,6 +3175,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-12",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-12",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-12",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-12",
@@ -2357,6 +3267,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-13",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-13",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-11-14",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -2404,6 +3334,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-15",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -2457,6 +3397,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-15",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-15",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-11-16",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -2475,6 +3435,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-16",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-17",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-17",
@@ -2525,6 +3505,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-19",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-19",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-19",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-19",
@@ -2587,6 +3597,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-20",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-20",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-11-21",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -2634,6 +3664,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-22",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -2687,6 +3727,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-22",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-22",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-11-23",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -2705,6 +3765,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-23",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-24",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-24",
@@ -2755,6 +3835,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-26",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-26",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-26",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-26",
@@ -2817,6 +3927,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-27",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-27",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-11-28",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -2864,6 +3994,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-11-29",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -2917,6 +4057,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-11-29",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-11-29",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-11-30",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -2935,6 +4095,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-30",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-01",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-01",
@@ -2985,6 +4165,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-03",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-12-03",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-03",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-03",
@@ -3047,6 +4257,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-04",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-04",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-05",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -3094,6 +4324,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-06",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -3147,6 +4387,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-06",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-12-06",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-12-07",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3165,6 +4425,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-07",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-08",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-08",
@@ -3217,6 +4497,36 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-10",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-12-10",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-10",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-12-11",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3254,6 +4564,26 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-11",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-11",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -3278,6 +4608,16 @@
     },
     {
       "date": "2026-12-13",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-13",
       "startTime": "14:00",
       "endTime": "14:50",
       "rink": "Fred Barrett Arena",
@@ -3327,6 +4667,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-13",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-12-13",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-12-14",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3345,6 +4705,26 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-14",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-15",
+      "startTime": "10:15",
+      "endTime": "12:15",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-15",
@@ -3395,6 +4775,36 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-17",
+      "startTime": "09:00",
+      "endTime": "09:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-12-17",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-17",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-17",
@@ -3454,6 +4864,26 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-18",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-18",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -3498,6 +4928,16 @@
     },
     {
       "date": "2026-12-20",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-20",
       "startTime": "14:00",
       "endTime": "14:50",
       "rink": "Fred Barrett Arena",
@@ -3547,6 +4987,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-20",
+      "startTime": "16:00",
+      "endTime": "16:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Family Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-12-20",
+      "startTime": "17:00",
+      "endTime": "17:50",
+      "rink": "Minto Recreation Complex - Barrhaven",
+      "rinkShort": "Minto",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
+      "type": "Public Skating",
+      "reservationRequired": true
+    },
+    {
       "date": "2026-12-21",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3563,6 +5023,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-21",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -3613,6 +5083,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-24",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -3677,6 +5157,26 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-25",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-25",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-26",
       "startTime": "17:00",
       "endTime": "18:00",
@@ -3694,6 +5194,16 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2026-12-27",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -3767,6 +5277,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-28",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2026-12-29",
       "startTime": "16:00",
       "endTime": "16:50",
@@ -3807,6 +5327,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2026-12-31",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-01",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3824,6 +5354,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-01",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-01",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -3837,6 +5387,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-03",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-04",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3853,6 +5413,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-04",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -3877,6 +5447,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-07",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-08",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3894,6 +5474,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-08",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-08",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -3907,6 +5507,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-10",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-11",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3923,6 +5533,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-11",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -3947,6 +5567,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-14",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-15",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3964,6 +5594,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-15",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-15",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -3977,6 +5627,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-17",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-18",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -3993,6 +5653,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-18",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4017,6 +5687,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-21",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-22",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4034,6 +5714,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-22",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-22",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4047,6 +5747,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-24",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-25",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4063,6 +5773,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-25",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4087,6 +5807,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-28",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-01-29",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4104,6 +5834,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-29",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-01-29",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4117,6 +5867,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-01-31",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-02-01",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4133,6 +5893,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-01",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4157,6 +5927,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-02-04",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-02-05",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4174,6 +5954,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-05",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-05",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4187,6 +5987,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-02-07",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-02-08",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4203,6 +6013,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-08",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4227,6 +6047,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-02-11",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-02-12",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4244,6 +6074,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-12",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-12",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4257,6 +6107,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-02-14",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-02-15",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4273,6 +6133,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-15",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4297,6 +6167,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-02-18",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-02-19",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4314,6 +6194,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-19",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-19",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4327,6 +6227,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-02-21",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-02-22",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4343,6 +6253,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-22",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4367,6 +6287,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-02-25",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-02-26",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4384,6 +6314,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-26",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-02-26",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4397,6 +6347,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-02-28",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-01",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4413,6 +6373,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-01",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4437,6 +6407,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-03-04",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-05",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4454,6 +6434,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-05",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-05",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4467,6 +6467,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-03-07",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-08",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4483,6 +6493,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-08",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4507,6 +6527,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-03-11",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-12",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4524,6 +6554,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-12",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-12",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4537,6 +6587,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-03-14",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-15",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4553,6 +6613,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-15",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4577,6 +6647,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-03-18",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-19",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4594,6 +6674,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-19",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-19",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4607,6 +6707,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-03-21",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-22",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4623,6 +6733,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-22",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4647,6 +6767,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-03-25",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-26",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4664,6 +6794,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-26",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-26",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4677,6 +6827,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-03-28",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-03-29",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4693,6 +6853,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-03-29",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4717,6 +6887,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-04-01",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-04-02",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4734,6 +6914,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-02",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-02",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4747,6 +6947,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-04-04",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-04-05",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4763,6 +6973,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-05",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4787,6 +7007,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-04-08",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-04-09",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4804,6 +7034,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-09",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-09",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
@@ -4817,6 +7067,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-04-11",
+      "startTime": "13:00",
+      "endTime": "13:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-04-12",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4833,6 +7093,16 @@
       "rink": "Canterbury Recreation Complex",
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-12",
+      "startTime": "14:00",
+      "endTime": "14:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -4857,6 +7127,16 @@
       "reservationRequired": false
     },
     {
+      "date": "2027-04-15",
+      "startTime": "10:00",
+      "endTime": "10:50",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
       "date": "2027-04-16",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -4874,6 +7154,26 @@
       "rinkShort": "Canterbury",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-16",
+      "startTime": "19:15",
+      "endTime": "20:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Public Skating",
+      "reservationRequired": false
+    },
+    {
+      "date": "2027-04-16",
+      "startTime": "20:15",
+      "endTime": "21:05",
+      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
+      "rinkShort": "MacQuarrie",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
+      "type": "Figure Skating",
       "reservationRequired": false
     },
     {
