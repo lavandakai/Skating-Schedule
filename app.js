@@ -142,6 +142,7 @@ function groupSessionsByDate(sessions, activeRinks, activeTypes) {
 
 function renderAttribution(strings) {
   return strings
+    .filter((text) => !text.startsWith("Address data"))
     .map((text) => {
       if (text.includes("github.com/ottrec/scraper")) {
         return `Compiled data &copy; Patrick Gaskin's <a href="https://github.com/ottrec/scraper" target="_blank" rel="noopener">ottrec/scraper (GitHub)</a>.`;
