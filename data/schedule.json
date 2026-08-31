@@ -1,10 +1,8 @@
 {
-  "generated_at": "2026-08-31T01:11:29+00:00",
+  "generated_at": "2026-08-31T18:23:56+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
-    "Address data via geocodio (CanVec+ by Natural Resources Canada)",
-    "Address data via geocodio (Countrywide (Adapted from Statistics Canada, National Address Register, 2024-05-11. This does not constitute an endorsement by Statistics Canada of this product.))",
     "Address data © Patrick Gaskin."
   ],
   "rinks": [
@@ -64,46 +62,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-08-30",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-30",
-      "startTime": "15:15",
-      "endTime": "16:05",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-30",
-      "startTime": "16:15",
-      "endTime": "17:05",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-08-30",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
     {
       "date": "2026-09-01",
       "startTime": "16:00",
