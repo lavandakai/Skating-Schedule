@@ -29,5 +29,21 @@
     "shortName": "Canterbury",
     "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
     "excludeTypes": ["Family Skating"]
+  },
+  {
+    "name": "Tom Brown Arena",
+    "shortName": "Tom Brown",
+    "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena"
+  },
+  {
+    "name": "St-Laurent Complex",
+    "shortName": "St-Laurent",
+    "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
+    "excludeTypes": ["Figure Skating"]
+  },
+  {
+    "name": "Bernard Grandmaître Arena",
+    "shortName": "Grandmaître",
+    "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena"
   }
 ]
