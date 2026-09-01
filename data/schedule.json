@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T18:23:56+00:00",
+  "generated_at": "2026-09-01T15:44:01+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -84,26 +84,6 @@
     },
     {
       "date": "2026-09-02",
-      "startTime": "11:00",
-      "endTime": "12:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-02",
-      "startTime": "12:00",
-      "endTime": "13:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-02",
       "startTime": "20:00",
       "endTime": "20:50",
       "rink": "Tom Brown Arena",
@@ -154,26 +134,6 @@
     },
     {
       "date": "2026-09-04",
-      "startTime": "11:00",
-      "endTime": "12:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-04",
-      "startTime": "12:00",
-      "endTime": "13:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-04",
       "startTime": "19:15",
       "endTime": "20:05",
       "rink": "Bob MacQuarrie Recreation Complex - Orleans",
@@ -190,16 +150,6 @@
       "rinkShort": "MacQuarrie",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Figure Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-05",
-      "startTime": "17:00",
-      "endTime": "18:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -239,26 +189,6 @@
       "rink": "Sandy Hill Arena",
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-07",
-      "startTime": "11:00",
-      "endTime": "12:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-07",
-      "startTime": "12:00",
-      "endTime": "13:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
       "type": "Public Skating",
       "reservationRequired": false
     },
