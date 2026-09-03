@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T15:44:01+00:00",
+  "generated_at": "2026-09-03T15:26:45+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -62,46 +62,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-09-01",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-01",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-02",
-      "startTime": "20:00",
-      "endTime": "20:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-02",
-      "startTime": "21:00",
-      "endTime": "21:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
     {
       "date": "2026-09-03",
       "startTime": "09:00",
@@ -195,7 +155,7 @@
     {
       "date": "2026-09-08",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -535,7 +495,7 @@
     {
       "date": "2026-09-15",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -1025,7 +985,7 @@
     {
       "date": "2026-09-22",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -1495,7 +1455,7 @@
     {
       "date": "2026-09-29",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -1995,7 +1955,7 @@
     {
       "date": "2026-10-06",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -2495,7 +2455,7 @@
     {
       "date": "2026-10-13",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -2995,7 +2955,7 @@
     {
       "date": "2026-10-20",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -3495,7 +3455,7 @@
     {
       "date": "2026-10-27",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -3995,7 +3955,7 @@
     {
       "date": "2026-11-03",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -4435,7 +4395,7 @@
     {
       "date": "2026-11-10",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -4935,7 +4895,7 @@
     {
       "date": "2026-11-17",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -5425,7 +5385,7 @@
     {
       "date": "2026-11-24",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -5925,7 +5885,7 @@
     {
       "date": "2026-12-01",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -6425,7 +6385,7 @@
     {
       "date": "2026-12-08",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
@@ -6845,7 +6805,7 @@
     {
       "date": "2026-12-15",
       "startTime": "10:15",
-      "endTime": "12:15",
+      "endTime": "12:05",
       "rink": "Minto Recreation Complex - Barrhaven",
       "rinkShort": "Minto",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
