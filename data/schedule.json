@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:11:14+00:00",
+  "generated_at": "2026-09-07T16:49:25+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -62,46 +62,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-09-05",
-      "startTime": "20:00",
-      "endTime": "20:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-05",
-      "startTime": "21:00",
-      "endTime": "21:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-06",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-06",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
     {
       "date": "2026-09-08",
       "startTime": "10:15",
