@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T16:49:25+00:00",
+  "generated_at": "2026-09-09T15:31:23+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -62,36 +62,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-09-08",
-      "startTime": "10:15",
-      "endTime": "12:05",
-      "rink": "Minto Recreation Complex - Barrhaven",
-      "rinkShort": "Minto",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-08",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-08",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
     {
       "date": "2026-09-09",
       "startTime": "20:00",
