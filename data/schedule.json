@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:31:23+00:00",
+  "generated_at": "2026-09-11T15:28:57+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -63,56 +63,6 @@
   ],
   "sessions": [
     {
-      "date": "2026-09-09",
-      "startTime": "20:00",
-      "endTime": "20:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-09",
-      "startTime": "21:00",
-      "endTime": "21:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-10",
-      "startTime": "09:00",
-      "endTime": "09:50",
-      "rink": "Minto Recreation Complex - Barrhaven",
-      "rinkShort": "Minto",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Public Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-10",
-      "startTime": "10:00",
-      "endTime": "10:50",
-      "rink": "Minto Recreation Complex - Barrhaven",
-      "rinkShort": "Minto",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Family Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-10",
-      "startTime": "10:00",
-      "endTime": "10:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
       "date": "2026-09-11",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -201,6 +151,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-12",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-12",
@@ -339,16 +299,6 @@
       "rink": "St-Laurent Complex",
       "rinkShort": "St-Laurent",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-14",
-      "startTime": "14:00",
-      "endTime": "14:50",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
       "type": "Public Skating",
       "reservationRequired": false
     },
@@ -593,26 +543,6 @@
       "reservationRequired": false
     },
     {
-      "date": "2026-09-18",
-      "startTime": "19:15",
-      "endTime": "20:05",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-18",
-      "startTime": "20:15",
-      "endTime": "21:05",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating",
-      "reservationRequired": false
-    },
-    {
       "date": "2026-09-19",
       "startTime": "14:00",
       "endTime": "14:50",
@@ -641,6 +571,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-19",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-19",
@@ -690,16 +630,6 @@
       "rinkShort": "Fred Barrett",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-20",
-      "startTime": "13:00",
-      "endTime": "13:50",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -1121,6 +1051,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-26",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-26",
@@ -1611,6 +1551,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-03",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-03",
@@ -2111,6 +2061,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-10",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-10",
@@ -2611,6 +2571,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-17",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-17",
@@ -3111,6 +3081,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-24",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-24",
@@ -3611,6 +3591,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-10-31",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-10-31",
@@ -4071,6 +4061,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-07",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-07",
@@ -4551,6 +4551,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-14",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-14",
@@ -5541,6 +5551,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-11-28",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-11-28",
@@ -6041,6 +6061,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-05",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-05",
@@ -6494,6 +6524,16 @@
     },
     {
       "date": "2026-12-12",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
+    },
+    {
+      "date": "2026-12-12",
       "startTime": "17:00",
       "endTime": "18:00",
       "rink": "Canterbury Recreation Complex",
@@ -6961,6 +7001,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-19",
+      "startTime": "15:00",
+      "endTime": "15:50",
+      "rink": "Bernard Grandmaître Arena",
+      "rinkShort": "Grandmaître",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-19",
