@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:28:57+00:00",
+  "generated_at": "2026-09-13T15:15:52+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -63,146 +63,6 @@
   ],
   "sessions": [
     {
-      "date": "2026-09-11",
-      "startTime": "11:00",
-      "endTime": "12:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-11",
-      "startTime": "12:00",
-      "endTime": "13:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-11",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-11",
-      "startTime": "19:00",
-      "endTime": "19:50",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-11",
-      "startTime": "19:15",
-      "endTime": "20:05",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-11",
-      "startTime": "20:15",
-      "endTime": "21:05",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Figure Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "14:00",
-      "endTime": "14:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "14:00",
-      "endTime": "14:50",
-      "rink": "Bernard Grandmaître Arena",
-      "rinkShort": "Grandmaître",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Bernard Grandmaître Arena",
-      "rinkShort": "Grandmaître",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "17:00",
-      "endTime": "18:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "20:00",
-      "endTime": "20:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "21:00",
-      "endTime": "21:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-12",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
       "date": "2026-09-13",
       "startTime": "13:00",
       "endTime": "13:50",
@@ -320,16 +180,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-15",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -793,16 +643,6 @@
       "reservationRequired": false
     },
     {
-      "date": "2026-09-22",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
       "date": "2026-09-23",
       "startTime": "11:00",
       "endTime": "12:00",
@@ -1280,16 +1120,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-29",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -1794,16 +1624,6 @@
     },
     {
       "date": "2026-10-06",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-06",
       "startTime": "17:00",
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
@@ -2300,16 +2120,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-13",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -2814,16 +2624,6 @@
     },
     {
       "date": "2026-10-20",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-20",
       "startTime": "17:00",
       "endTime": "17:50",
       "rink": "Sandy Hill Arena",
@@ -3320,16 +3120,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-27",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -3830,16 +3620,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-11-03",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -4280,16 +4060,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-11-10",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -4790,16 +4560,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-11-17",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -5280,16 +5040,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-11-24",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -5790,16 +5540,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-12-01",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -6300,16 +6040,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-12-08",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
@@ -6730,16 +6460,6 @@
       "rinkShort": "Sandy Hill",
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-12-15",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
       "reservationRequired": false
     },
     {
