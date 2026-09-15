@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T15:15:52+00:00",
+  "generated_at": "2026-09-15T15:52:50+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -62,106 +62,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-09-13",
-      "startTime": "13:00",
-      "endTime": "13:50",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-13",
-      "startTime": "14:00",
-      "endTime": "14:50",
-      "rink": "Fred Barrett Arena",
-      "rinkShort": "Fred Barrett",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/fred-barrett-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-13",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-13",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-13",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "Minto Recreation Complex - Barrhaven",
-      "rinkShort": "Minto",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Family Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-13",
-      "startTime": "17:00",
-      "endTime": "17:50",
-      "rink": "Minto Recreation Complex - Barrhaven",
-      "rinkShort": "Minto",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Public Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-14",
-      "startTime": "11:00",
-      "endTime": "12:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-14",
-      "startTime": "12:00",
-      "endTime": "13:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-14",
-      "startTime": "12:00",
-      "endTime": "12:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-14",
-      "startTime": "13:00",
-      "endTime": "13:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
     {
       "date": "2026-09-15",
       "startTime": "10:15",
@@ -251,16 +151,6 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
       "type": "Public Skating",
       "reservationRequired": true
-    },
-    {
-      "date": "2026-09-17",
-      "startTime": "10:00",
-      "endTime": "10:50",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating",
-      "reservationRequired": false
     },
     {
       "date": "2026-09-17",
