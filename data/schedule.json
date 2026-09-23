@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T17:22:44+00:00",
+  "generated_at": "2026-09-23T15:44:47+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -62,76 +62,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-09-21",
-      "startTime": "11:00",
-      "endTime": "12:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-21",
-      "startTime": "12:00",
-      "endTime": "13:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-21",
-      "startTime": "12:00",
-      "endTime": "12:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-21",
-      "startTime": "13:00",
-      "endTime": "13:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-21",
-      "startTime": "14:00",
-      "endTime": "14:50",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-22",
-      "startTime": "10:15",
-      "endTime": "12:05",
-      "rink": "Minto Recreation Complex - Barrhaven",
-      "rinkShort": "Minto",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-22",
-      "startTime": "11:00",
-      "endTime": "11:50",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
     {
       "date": "2026-09-23",
       "startTime": "11:00",
