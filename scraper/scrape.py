@@ -233,6 +233,30 @@ def _parse_iso_date(value):
         return None
 
 
+# A single cancellation notice group (exceptionsHtmlId) can be shared by
+# several different activities at a rink (e.g. an "ice sports" table
+# covering hockey, speed skating, and figure skating together), and a given
+# dated entry in that notice doesn't always cancel all of them -- e.g.
+# "Youth hockey and speed skating, cancelled" leaves figure skating running.
+# So each entry's own note text has to be checked against the session type
+# it would apply to, rather than assuming every entry cancels every
+# activity that happens to share the same notice group.
+CANCELLATION_TYPE_KEYWORDS = {
+    "Public Skating": "public skating",
+    "Family Skating": "family skating",
+    "Adult Skating (18+)": "adult skating",
+    "Figure Skating": "figure skating",
+}
+
+
+def cancellation_applies_to_type(notes, session_type):
+    combined = " ".join(notes).lower()
+    if "all drop-in" in combined:
+        return True
+    keyword = CANCELLATION_TYPE_KEYWORDS.get(session_type)
+    return bool(keyword) and keyword in combined
+
+
 def build_rink_sessions(rink, activities, html_by_id, today):
     exclude_types = set(rink.get("excludeTypes", []))
     matches = [
@@ -253,12 +277,12 @@ def build_rink_sessions(rink, activities, html_by_id, today):
         group_end = _parse_iso_date(activity.get("endDate"))
         if not group_start or not group_end:
             continue
-        ranges = []
+        entries = []
         for entry in parse_cancellation_fragment(html_by_id.get(eid)):
-            ranges.extend(
-                parse_cancellation_dates(entry.get("date"), group_start, group_end)
-            )
-        excluded_ranges_by_group[eid] = ranges
+            notes = entry.get("notes") or []
+            for r_start, r_end in parse_cancellation_dates(entry.get("date"), group_start, group_end):
+                entries.append((r_start, r_end, notes))
+        excluded_ranges_by_group[eid] = entries
 
     sessions = []
     for activity in matches:
@@ -276,12 +300,15 @@ def build_rink_sessions(rink, activities, html_by_id, today):
         if correction:
             start_time, end_time = correction
 
-        excluded_ranges = excluded_ranges_by_group.get(activity.get("exceptionsHtmlId"), [])
+        excluded_entries = excluded_ranges_by_group.get(activity.get("exceptionsHtmlId"), [])
         manual_excluded_dates = MANUAL_CANCELLATIONS.get((rink["url"], session_type), set())
         cursor = max(start, today)
         while cursor <= end:
             if DAY_NAMES[cursor.weekday()] == weekday:
-                excluded = any(r_start <= cursor <= r_end for r_start, r_end in excluded_ranges)
+                excluded = any(
+                    r_start <= cursor <= r_end and cancellation_applies_to_type(notes, session_type)
+                    for r_start, r_end, notes in excluded_entries
+                )
                 if not excluded and cursor not in manual_excluded_dates:
                     sessions.append({
                         "date": cursor.isoformat(),

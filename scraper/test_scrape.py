@@ -88,6 +88,40 @@ def test_figure_skate_uses_its_own_cancellation_group():
     print("test_figure_skate_uses_its_own_cancellation_group OK")
 
 
+def test_cancellation_note_only_excludes_the_activity_it_names():
+    # a shared "ice sports" notice group can list a date that cancels an
+    # unrelated activity (e.g. youth hockey) sharing the same
+    # exceptionsHtmlId, which must NOT cancel figure skating that day; a
+    # date whose note explicitly names figure skating still should
+    activities = [{
+        "facilityUrl": "https://example.com/test-arena",
+        "startDate": "2026-09-01",
+        "endDate": "2026-12-29",
+        "weekday": "saturday",
+        "startTime": "22:00",
+        "endTime": "22:50",
+        "name": "figure skate 6+",
+        "reservationRequired": True,
+        "exceptionsHtmlId": 71,
+    }]
+    html_by_id = {
+        71: (
+            "<ul>"
+            "<li><strong>Saturday, September 26</strong>"
+            "<ul><li>Youth hockey and speed skating, cancelled</li></ul></li>"
+            "<li><strong>Saturday, December 12</strong>"
+            "<ul><li>Family skating, public skating and figure skating, cancelled</li></ul></li>"
+            "</ul>"
+        )
+    }
+    rink = {"name": "Test Arena", "url": "https://example.com/test-arena"}
+    sessions = build_rink_sessions(rink, activities, html_by_id, date(2026, 9, 1))
+
+    assert any(s["date"] == "2026-09-26" for s in sessions)
+    assert not any(s["date"] == "2026-12-12" for s in sessions)
+    print("test_cancellation_note_only_excludes_the_activity_it_names OK")
+
+
 def test_reservation_required_is_propagated_per_session():
     activities, html_by_id = load_fixture()
     rink = {"name": "Sandy Hill Arena", "url": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena"}
@@ -273,6 +307,7 @@ if __name__ == "__main__":
     test_parse_cancellation_dates_multi_label_prefix()
     test_sandy_hill_sessions_exclude_cancelled_dates()
     test_figure_skate_uses_its_own_cancellation_group()
+    test_cancellation_note_only_excludes_the_activity_it_names()
     test_reservation_required_is_propagated_per_session()
     test_exceptions_html_id_zero_is_not_treated_as_missing()
     test_manual_cancellation_override()
