@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:44:47+00:00",
+  "generated_at": "2026-09-24T14:01:10+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -63,56 +63,6 @@
   ],
   "sessions": [
     {
-      "date": "2026-09-23",
-      "startTime": "11:00",
-      "endTime": "12:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-23",
-      "startTime": "12:00",
-      "endTime": "13:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-23",
-      "startTime": "12:00",
-      "endTime": "12:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-23",
-      "startTime": "20:00",
-      "endTime": "20:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-23",
-      "startTime": "21:00",
-      "endTime": "21:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
       "date": "2026-09-24",
       "startTime": "09:00",
       "endTime": "09:50",
@@ -351,6 +301,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-09-26",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-09-27",
@@ -6181,6 +6141,16 @@
       "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
       "type": "Public Skating",
       "reservationRequired": false
+    },
+    {
+      "date": "2026-12-19",
+      "startTime": "22:00",
+      "endTime": "22:50",
+      "rink": "Sandy Hill Arena",
+      "rinkShort": "Sandy Hill",
+      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
+      "type": "Figure Skating",
+      "reservationRequired": true
     },
     {
       "date": "2026-12-20",
