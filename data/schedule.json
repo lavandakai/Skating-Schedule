@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:01:10+00:00",
+  "generated_at": "2026-09-25T16:06:42+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -62,106 +62,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-09-24",
-      "startTime": "09:00",
-      "endTime": "09:50",
-      "rink": "Minto Recreation Complex - Barrhaven",
-      "rinkShort": "Minto",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Public Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "10:00",
-      "endTime": "10:50",
-      "rink": "Bob MacQuarrie Recreation Complex - Orleans",
-      "rinkShort": "MacQuarrie",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bob-macquarrie-recreation-complex-orleans",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "10:00",
-      "endTime": "10:50",
-      "rink": "Minto Recreation Complex - Barrhaven",
-      "rinkShort": "Minto",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/minto-recreation-complex-barrhaven",
-      "type": "Family Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "10:00",
-      "endTime": "10:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "11:00",
-      "endTime": "11:50",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "11:00",
-      "endTime": "11:50",
-      "rink": "Bernard Grandmaître Arena",
-      "rinkShort": "Grandmaître",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "12:00",
-      "endTime": "12:50",
-      "rink": "Jim Durrell Recreation Centre",
-      "rinkShort": "Jim Durrell",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/jim-durrell-recreation-centre",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "12:00",
-      "endTime": "12:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Adult Skating (18+)",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "St-Laurent Complex",
-      "rinkShort": "St-Laurent",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/st-laurent-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-09-24",
-      "startTime": "16:00",
-      "endTime": "16:50",
-      "rink": "Bernard Grandmaître Arena",
-      "rinkShort": "Grandmaître",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
     {
       "date": "2026-09-25",
       "startTime": "11:00",
