@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T16:29:12+00:00",
+  "generated_at": "2026-11-01T17:23:05+00:00",
   "attribution": [
     "Compiled data © Patrick Gaskin. https://github.com/ottrec/scraper",
     "Facility information and schedules © City of Ottawa. https://ottawa.ca/en/recreation-and-parks/facilities/place-listing",
@@ -62,86 +62,6 @@
     }
   ],
   "sessions": [
-    {
-      "date": "2026-10-31",
-      "startTime": "14:00",
-      "endTime": "14:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-31",
-      "startTime": "14:00",
-      "endTime": "14:50",
-      "rink": "Bernard Grandmaître Arena",
-      "rinkShort": "Grandmaître",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-31",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Tom Brown Arena",
-      "rinkShort": "Tom Brown",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/tom-brown-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-31",
-      "startTime": "15:00",
-      "endTime": "15:50",
-      "rink": "Bernard Grandmaître Arena",
-      "rinkShort": "Grandmaître",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/bernard-grandmaitre-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
-    {
-      "date": "2026-10-31",
-      "startTime": "17:00",
-      "endTime": "18:00",
-      "rink": "Canterbury Recreation Complex",
-      "rinkShort": "Canterbury",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/canterbury-recreation-complex",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-31",
-      "startTime": "20:00",
-      "endTime": "20:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Family Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-31",
-      "startTime": "21:00",
-      "endTime": "21:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Public Skating",
-      "reservationRequired": false
-    },
-    {
-      "date": "2026-10-31",
-      "startTime": "22:00",
-      "endTime": "22:50",
-      "rink": "Sandy Hill Arena",
-      "rinkShort": "Sandy Hill",
-      "rinkUrl": "https://ottawa.ca/en/recreation-and-parks/facilities/place-listing/sandy-hill-arena",
-      "type": "Figure Skating",
-      "reservationRequired": true
-    },
     {
       "date": "2026-11-01",
       "startTime": "13:00",
